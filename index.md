@@ -17,3 +17,5 @@ We're buidling the works biggest Clojure teams.
 Join us to create the next generation services that will revolutionize the e-commerce landscape.
 
 Get in touch at <a href="mailto:careers@stapleslabs.com">careers@stapleslabs.com</a>
+
+We are located at: 2 W 5th Ave, 3rd Floor, San Mateo, CA 94402.
