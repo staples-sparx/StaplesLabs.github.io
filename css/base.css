@@ -1,0 +1,226 @@
+@charset "UTF-8";
+body {
+
+    font-family: "Source Sans Pro";
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #227ce8; }
+
+    
+.head {
+    font-family: "Sarina";
+    /* background-color: #fee9cc; */
+    color: #D65C33;
+    background-color: #E2F0FF;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 768px;
+    .head h1 {
+	color: #D65C33;
+	font-family: "Source Sans Pro";
+	text-align: left;
+	width: 768px;
+	font-weight: 400; }
+}
+
+.meta {
+    font-family: "Source Sans Pro";
+}
+
+.content {
+  /* margin-left: 150px; */
+  width: 60%;
+  font-size: 12px;
+  text-align: justify;
+  font-family: "Source Sans Pro";
+  margin-bottom: 50px; }
+  .content h1 {
+    color: #333;
+    font-family: "Source Sans Pro";
+    /* font-family: "Yanone Kaffeesatz", Helvetica, sans-serif; */
+  }
+  .content h1 a {
+    color: #111;
+    text-decoration: none; }
+  .content h2 {
+    color: #333;
+    font-family: "Source Sans Pro";
+   }
+  .content h2 a {
+    color: #111;
+    text-decoration: none; }
+  .content h3 {
+    color: #333;
+    font-family: "Source Sans Pro";
+    font-weight: 400; }
+  .content h3 a {
+    color: #111;
+    text-decoration: none; }
+  .content h4 {
+    color: #333;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-weight: 400; }
+  .content h4 a {
+    color: #111;
+    text-decoration: none; }
+  .content h1 {
+    font-size: 36px;
+    margin: 18px 0 2px 0; }
+  .content h2 {
+    font-size: 30px;
+    margin-bottom: 15px; }
+  .content h3 {
+    color: #777;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+  .content .secret {
+    margin-top: 17px; 
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: rgb(29, 29, 29); 
+    width: 300px; 
+    height: 36px;}
+  .content p {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    line-height: 1.4em; }
+    .content p code {
+      font-size: 14px;
+      background-color: #fee9cc;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 3px;
+      padding: 2px 3px; }
+  .content img {
+    max-width: 100%; }
+  .content pre {
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.15);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 6px; }
+  .content hr {
+    border: 0;
+    height: 3px;
+    background-image: url("/images/hr.png");
+    background-repeat: repeat-x;
+    margin: 1em 1em; }
+  .content li {
+    margin-bottom: 10px;
+    line-height: 1.4em; }
+  .content blockquote {
+    font-style: italic;
+    font-size: 14px;
+    padding: .25em 1em;
+    margin: 1em 1em 0 1em;
+    color: #444; }
+    .content blockquote cite:before {
+      content: '— '; }
+    .content blockquote cite {
+      display: block;
+      margin-top: .5em;
+      text-align: right;
+      color: #111;
+      font-style: normal; }
+  .content .byline {
+    margin-bottom: 17px;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    padding-left: 0px;
+    font-size: 17px;
+    color: #777; }
+  .content .aside {
+    background-color: #eeeeee;
+    padding: 14px;
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6em; }
+  .content .listing {
+    margin: 16px 0px 0 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif; }
+    .content .listing ul {
+      margin: 0;
+      padding: 0; }
+    .content .listing li {
+      font-size: 15px;
+      list-style: none;
+      padding: 5px 3px;
+      margin: 0;
+      color: #777777;
+      border-bottom: 1px solid #eee; }
+    .content .listing li span {
+      float: right; }
+    .content .listing a {
+      text-decoration: none; }
+      .content .listing a:hover {
+        text-decoration: underline; }
+  .content .meta {
+    margin: 30px 0;
+    padding: 10px 200px 0px 0px;
+    font-family: Helvetica, sans-serif; }
+    .content .meta p {
+      line-height: 1.4;
+      font-size: 14px;
+      margin-top: 0px; }
+    .content .meta img {
+      position: relative;
+      float: left;
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-left: -60px;
+      border-radius: 4px; }
+    .content .meta .copy {
+      padding-left: 60px; }
+    .content .meta iframe {
+      padding-left: 5px; }
+  .content .talk-design .color div {
+    float: left;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold; }
+  .content .talk-design .color .white {
+    color: #fff; }
+
+/* for the platform-table page */
+table.port-table { border: 1pt solid black; border-collapse: collapse; background-color: white; font-size: .75em; }
+table.port-table th { border: 1pt solid #999; background-color: #DED; font-weight: bold; }
+table.port-table td { height: 4em; width: 8em; vertical-align: middle; text-align: center; padding: 0; }
+.not-available { background-color: #A00; border: 1pt solid #999; }
+.in-progress { background-color: #DD2; border: 1pt solid #999; }
+.port-table .in-progress a:hover { background-color: #FF2 }
+.in-progress:hover { background-color: #FF2 }
+.not-applicable { background-color: #555; border: 1pt solid #999; }
+.available { background-color: #0E0; border: 1pt solid #999; }
+.port-table .available a:hover { background-color: #0F0; }
+.available:hover { background-color: #0F0; }
+.port-table a:link, .port-table a:visited { display: block; text-decoration: none; cursor: pointer; }
+.port-table a:link { color: #000; }
+.port-table a:visited { color: #222; }
+.key-blob th { height: 3em; width: 3em; border: 1pt solid #999; }
+.key th { font-weight: bold; width: 3em; text-align: left; }
+.processor-header th { text-align: center; font-size: 100%; }
+.big-height { padding: 0; margin: 1px; background-color: inherit; }
+.key a { cursor: pointer; }
+.system-header th { text-align: left; padding-right: 5pt; }
+.key td { padding: .5ex; padding-left: 1em; min-height: 8em; border-left: 1pt solid #999; }
+.key h1 { font-size: 100%; font-weight: bold; padding: 0; }
+.left-floater { float: left; margin-right: 2em; }
+.key { border: 1pt solid #999; background-color: #EEE; border-collapse: collapse; clear: right; font-size: .75em; }
+div.key-entry { line-height: 250%; }
+div.value-blob { display: inline; vertical-align: top; }
+.hide-me { display: none; }
+
+table.build-command-table { margin-top: 1em; margin-bottom: 1em; }
+table.build-command-table th { font-weight: bold; font-size: small; text-align: left; padding: 3pt 1em 3pt 0pt; }
+table.build-command-table td { padding: 3pt 0pt 3pt 0pt; }
