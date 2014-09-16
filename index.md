@@ -3,7 +3,7 @@ layout: index
 ---
 
 Staples is the world's 3rd largest eCommerce player. No problem is trivial.  
-At the Innovation Lab, we're pushing the envelope to take things to the next level.
+At SparX, we're pushing the envelope to take things to the next level.
 
 **Big data, machine learning, predictive modeling, search, real-time distributed systems.**  
 Challenging problems for talented individuals. We're looking for Clojure engineers, data scientists, devops, product managers, and QA engineers.  
