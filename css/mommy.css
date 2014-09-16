@@ -11,7 +11,7 @@
  blockquote { font-style:italic; border-left:4px solid #ddd; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; color:#888; }
  .wsite-multicol-table-wrap {margin:0 !important;}
  h2 { font-size: 24px; padding: .5em 0 .2em 0; line-height: 1.2; font-weight: normal; color: #000; }
- div.paragraph { line-height: 1.5; padding: .5em 0; font-size: 14px;}
+ div.paragraph { line-height: 1.5; padding: .5em 0; font-size: 18px; padding-left:80px;}
  p { line-height: 1.5; padding: .5em 0; }
  div#content {min-height:400px;}
  #header-wrap { padding:50px 0px 5px; }
@@ -71,7 +71,7 @@
  #wsite-menus .wsite-menu li:first-child a:hover { border-radius:5px 5px 0 0; }
  #wsite-menus .wsite-menu li:last-child a:hover { border-radius:0 0 5px 5px; }
  #wsite-menus .wsite-menu { border:1px solid #aaa; border-radius:5px; background:url(images/banner-wrapper.png?197114); }
- #banner-wrap { background:url(theme/banner-wrapper.png?197114); border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; }
+ #banner-wrap { background:url(theme/banner-wrapper.png?197114); border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; width:80%}
  .tall-header-page #banner { position:relative; }
  .tall-header-page .corner-left { background:url(theme/banner-tall-bg-left.png?197114) no-repeat top left; position:absolute; top:0px; left:0px; width:37px; height:348px; }
  .tall-header-page .corner-right { background:url(theme/banner-tall-bg-right.png?197114) no-repeat top left; position:absolute; top:0px; right:0px; width:37px; height:348px; }
