@@ -5,13 +5,13 @@
  body { font-family: 'Quattrocento', serif; font-size: 14px; color: #3e3e3e; background:url(theme/footer-bg.png?197114) repeat; }
  .container { margin: 0 auto; width: 960px; }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; min-width:960px; background:#fff; }
- div.paragraph a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; }
+ div.paragraph a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; font-size: 14px;}
  p a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; }
  a:hover { border-bottom:none; }
  blockquote { font-style:italic; border-left:4px solid #ddd; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; color:#888; }
  .wsite-multicol-table-wrap {margin:0 !important;}
  h2 { font-size: 24px; padding: .5em 0 .2em 0; line-height: 1.2; font-weight: normal; color: #000; }
- div.paragraph { line-height: 1.5; font-size: 15px; padding: .5em 0; }
+ div.paragraph { line-height: 1.5; padding: .5em 0; font-size: 14px;}
  p { line-height: 1.5; padding: .5em 0; }
  div#content {min-height:400px;}
  #header-wrap { padding:50px 0px 5px; }
@@ -71,7 +71,7 @@
  #wsite-menus .wsite-menu li:first-child a:hover { border-radius:5px 5px 0 0; }
  #wsite-menus .wsite-menu li:last-child a:hover { border-radius:0 0 5px 5px; }
  #wsite-menus .wsite-menu { border:1px solid #aaa; border-radius:5px; background:url(images/banner-wrapper.png?197114); }
- #banner-wrap { background:url(theme/banner-wrapper.png?197114); border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; width: 90%}
+ #banner-wrap { background:url(theme/banner-wrapper.png?197114); border-top:1px dashed #ddd; border-bottom:1px dashed #ddd; }
  .tall-header-page #banner { position:relative; }
  .tall-header-page .corner-left { background:url(theme/banner-tall-bg-left.png?197114) no-repeat top left; position:absolute; top:0px; left:0px; width:37px; height:348px; }
  .tall-header-page .corner-right { background:url(theme/banner-tall-bg-right.png?197114) no-repeat top left; position:absolute; top:0px; right:0px; width:37px; height:348px; }
@@ -90,7 +90,7 @@
  .landing-banner-inner { #position: relative; #top: -50%; }
  #bannerright { float: right; padding: 0 80px 0 45px; width: 510px; height: 324px; }
  #bannerright h2 { color: #484747; font-size: 36px; font-weight:normal; margin: 0px; padding: 0px; line-height: 36px; }
- #bannerright div.paragraph { color: #656565; font-size: 15px; padding: 20px 0px; line-height: 140%; }
+ #bannerright div.paragraph { color: #656565; font-size: 14px; padding: 20px 0px; line-height: 140%; }
  #bannerright p { color: #656565; font-size: 14px; padding: 20px 0px; line-height: 140%; }
  #bannerright .wsite-button { margin: 0px; }
  #main-wrap .container { padding:30px 0px 50px; min-height:400px; }
