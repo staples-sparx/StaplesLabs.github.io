@@ -4,7 +4,7 @@ layout: index
 
 ## Applied AI. At scale
 
-Staples is the world's second largest e-commerce player. No problem is trivial.
+Staples is the world's 3rd largest e-commerce player. No problem is trivial.
 At Staples SparX, we are pushing the envelope to take things to the next level.
 
 Last year, Runa (a Clojure startup) was acquired by Staples and became the seed for this new Lab.  
