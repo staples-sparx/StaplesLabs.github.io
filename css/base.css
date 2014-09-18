@@ -2,6 +2,7 @@
 body {
   font-family: "Times, Times New Roman, serif";
   /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  font-size: 16pt;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -18,7 +19,6 @@ a {
     background-color: #E2F0FF;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 5px;
-    font-size: 16px;
     width: 768px;
     .head h1 {
 	color: #D65C33;
@@ -35,7 +35,6 @@ a {
 .content {
   /* margin-left: 150px; */
   width: 60%;
-  font-size: 12px;
   text-align: justify;
   font-family: "Source Sans Pro";
   margin-bottom: 50px; }
@@ -69,14 +68,11 @@ a {
     color: #111;
     text-decoration: none; }
   .content h1 {
-    font-size: 36px;
     margin: 18px 0 2px 0; }
   .content h2 {
-    font-size: 30px;
     margin-bottom: 15px; }
   .content h3 {
     color: #777;
-    font-size: 25px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
   .content .secret {
@@ -87,12 +83,10 @@ a {
     width: 300px;
     height: 36px;}
   .content p {
-    font-size: 17px;
     margin-top: 0;
     margin-bottom: 1.2em;
     line-height: 1.4em; }
     .content p code {
-      font-size: 14px;
       background-color: #fee9cc;
       border: 1px solid rgba(0,0,0,0.1);
       border-radius: 3px;
@@ -118,7 +112,6 @@ a {
     line-height: 1.4em; }
   .content blockquote {
     font-style: italic;
-    font-size: 14px;
     padding: .25em 1em;
     margin: 1em 1em 0 1em;
     color: #444; }
@@ -134,12 +127,10 @@ a {
     margin-bottom: 17px;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
     padding-left: 0px;
-    font-size: 17px;
     color: #777; }
   .content .aside {
     background-color: #eeeeee;
     padding: 14px;
-    font-size: 14px;
     margin: 5px 0 15px 0;
     font-family: Helvetica, sans-serif;
     line-height: 1.6em; }
@@ -151,7 +142,6 @@ a {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 15px;
       list-style: none;
       padding: 5px 3px;
       margin: 0;
@@ -169,7 +159,6 @@ a {
     font-family: Helvetica, sans-serif; }
     .content .meta p {
       line-height: 1.4;
-      font-size: 14px;
       margin-top: 0px; }
     .content .meta img {
       position: relative;
@@ -188,13 +177,12 @@ a {
     padding: 5px 15px;
     border: 1px solid #000;
     font-family: Helvetica, sans-serif;
-    font-size: 12px;
     font-weight: bold; }
   .content .talk-design .color .white {
     color: #fff; }
 
 /* for the platform-table page */
-table.port-table { border: 1pt solid black; border-collapse: collapse; background-color: white; font-size: .75em; }
+table.port-table { border: 1pt solid black; border-collapse: collapse; background-color: white;  }
 table.port-table th { border: 1pt solid #999; background-color: #DED; font-weight: bold; }
 table.port-table td { height: 4em; width: 8em; vertical-align: middle; text-align: center; padding: 0; }
 .not-available { background-color: #A00; border: 1pt solid #999; }
@@ -217,7 +205,7 @@ table.port-table td { height: 4em; width: 8em; vertical-align: middle; text-alig
 .key td { padding: .5ex; padding-left: 1em; min-height: 8em; border-left: 1pt solid #999; }
 .key h1 { font-size: 100%; font-weight: bold; padding: 0; }
 .left-floater { float: left; margin-right: 2em; }
-.key { border: 1pt solid #999; background-color: #EEE; border-collapse: collapse; clear: right; font-size: .75em; }
+.key { border: 1pt solid #999; background-color: #EEE; border-collapse: collapse; clear: right; }
 div.key-entry { line-height: 250%; }
 div.value-blob { display: inline; vertical-align: top; }
 .hide-me { display: none; }
