@@ -2,7 +2,7 @@
 layout: index
 ---
 
-<h2 class="wsite-content-title" style="text-align:center;"><font size="6"><strong>World Class Engineering & Machine Learning. At scale.</strong><br /></font><br /></h2>
+<p style="">World Class Engineering & Machine Learning. At scale.</p>
 
 # You Said SparX?
 
@@ -32,7 +32,9 @@ Our current opened positions are:
 - [Software Engineer](jobs/software_engineer.html)
 - [Product Manager](jobs/product_manager.html)
 
-Get in touch at <a href="mailto:careers@stapleslabs.com" title="">careers@stapleslabs.com</a>
+Get in touch at
+[mailto:careers@stapleslabs.com](careers@stapleslabs.com), you'll
+never look back!
 
 # Location
 

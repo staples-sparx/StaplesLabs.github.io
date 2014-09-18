@@ -2,7 +2,14 @@
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
  a img { border: 0; }
  a { text-decoration: none; }
- body { font-family: 'Quattrocento', serif; font-size: 14px; color: #3e3e3e; background:url(theme/footer-bg.png?197114) repeat; }
+ body {
+  font-family: "Times, Times New Roman, serif";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 12pt;
+  color: #3e3e3e;
+  background:url(theme/footer-bg.png?197114) repeat;
+}
  .container { margin: 0 auto; width: 960px; }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; min-width:960px; background:#fff; }
  div.paragraph a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; font-size: 14px;}
