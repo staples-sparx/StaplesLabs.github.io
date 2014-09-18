@@ -27,7 +27,7 @@ h2 {
   font-family: Times, Times New Roman, serif;
   font-style: italic;
   font-size: 20pt;
-  margin: auto;
+  margin: 0 0 0 0;
   width: 23em;
   margin-bottom: 1em;
   max-width: 40rem;
@@ -36,7 +36,7 @@ h2 {
 #header {
   font-family: Times, Times New Roman, serif;
   margin: auto;
-  max-width: 40rem;
+  width: 40rem;
   border: none;
   border-bottom: dotted gray;
 }
