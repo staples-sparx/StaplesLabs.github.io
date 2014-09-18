@@ -7,12 +7,12 @@ layout: index
 # You Said SparX?
 
 Staples is the world's **3rd largest eCommerce player**. No problem is
-trivial. If you want scale, a firehose of data, and the chance to
-target and impact **50 million users**... we got it!
+trivial. You want scale, a firehose of data, and the chance to target
+and impact **50 million users**... we got it!
 
 SparX is a **small team** (30 people), operating in **startup mode**:
-we are in charge of pushing the envelope to **take things to the next
-level**.
+we are in charge of pushing the envelope and **taking things to the
+next level**.
 
 We specialize in cutting-edge technologies and we leverage them to
 build actual products which directly impact Staples bottom line: **Big
@@ -26,17 +26,17 @@ Sound like a cool challenge? We are **seeking talented and passionate
 people** with a flair for machine learning, engineering, design,
 products, operations, and more.
 
-Our current opened positions are:
+Get in touch at
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
+never look back!
+
+## Open Positions:
 
 - [Data Scientist](jobs/data_scientist.html)
 - [Software Engineer](jobs/software_engineer.html)
 - [Product Manager](jobs/product_manager.html)
 
-Get in touch at
-[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
-never look back!
-
-# Location
+# Contact
 
 Our offices are located in San Mateo (CA) and Seattle (WA).
 
