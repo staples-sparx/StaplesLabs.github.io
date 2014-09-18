@@ -1,5 +1,5 @@
 body {
-  font-family: Times, Times New Roman, serif;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-size: 14pt;
@@ -13,16 +13,17 @@ a {
 }
 
 h1 {
-  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-family: Times, Times New Roman, serif;
   font-size: 3rem;
 }
 
 h2 {
-  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-family: Times, Times New Roman, serif;
   font-size: 2rem;
 }
 
 #tagline {
+  font-family: Times, Times New Roman, serif;
   font-style: italic;
   font-size: 20pt;
   margin: auto;
@@ -31,6 +32,7 @@ h2 {
 }
 
 #header {
+  font-family: Times, Times New Roman, serif;
   margin: auto;
   width: 80%;
   border: none;
@@ -39,7 +41,7 @@ h2 {
 
 #staples {
   color: #ca0813;
-  font-size: 12pt
+  font-size: 12pt;
   margin: 0 0 0 2rem;
   text-align: left;
 }
