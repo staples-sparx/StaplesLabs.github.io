@@ -22,6 +22,7 @@ h2 {
   font-size: 2rem;
 }
 
+
 #tagline {
   font-family: Times, Times New Roman, serif;
   font-style: italic;
@@ -29,12 +30,13 @@ h2 {
   margin: auto;
   width: 23em;
   margin-bottom: 1em;
+  max-width: 40rem;
 }
 
 #header {
   font-family: Times, Times New Roman, serif;
   margin: auto;
-  width: 80%;
+  max-width: 40rem;
   border: none;
   border-bottom: dotted gray;
 }
@@ -42,19 +44,19 @@ h2 {
 #staples {
   color: #ca0813;
   font-size: 12pt;
-  margin: 0 0 0 2rem;
+  margin: 4rem 0 0 2rem;
   text-align: left;
 }
 
 #sparx {
   color: black;
-  font-size: 60pt;
+  font-size: 70pt;
   margin: 0 0 0 2rem;
   text-align: left;
 }
 
 #content {
-  text-align:left;
-  clear: both;
-  margin: 1rem 5rem;
+  text-align: left;
+  margin: 1rem auto;
+  max-width: 40rem;
 }
