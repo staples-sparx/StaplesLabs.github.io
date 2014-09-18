@@ -1,10 +1,9 @@
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
   font-size: 14pt;
-  color: #3e3e3e;
-  background:url(theme/footer-bg.png?197114) repeat;
+  text-rendering: optimizeLegibility;
+  color: black;
+  padding-bottom: 5rem;
 }
 
 a {
@@ -28,7 +27,6 @@ h2 {
   font-style: italic;
   font-size: 20pt;
   margin: 0 0 0 0;
-  width: 23em;
   margin-bottom: 1em;
   max-width: 40rem;
 }
@@ -38,7 +36,7 @@ h2 {
   margin: auto;
   width: 40rem;
   border: none;
-  border-bottom: dotted gray;
+  border-bottom: 2px dashed gray;
 }
 
 #staples {
