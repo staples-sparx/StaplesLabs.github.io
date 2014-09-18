@@ -2,7 +2,7 @@
 layout: index
 ---
 
-<p id="tagline">World Class Engineering & Machine Learning. At scale.</p>
+<p id="tagline">World Class Engineering & Machine Learning.<br/> At scale.</p>
 
 # You Said SparX?
 
@@ -36,7 +36,7 @@ never look back!
 - [Software Engineer](jobs/software_engineer.html)
 - [Product Manager](jobs/product_manager.html)
 
-# Contact
+# Location
 
 Our offices are located in San Mateo (CA) and Seattle (WA).
 
