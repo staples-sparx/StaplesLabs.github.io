@@ -24,18 +24,22 @@ a {
 #header {
   margin: auto;
   width: 80%;
+  border: none;
   border-bottom: dotted gray;
 }
 
 #staples {
   color: #ca0813;
   font-size: 12pt
+  margin: 0 0 0 2rem;
+  text-align: left;
 }
 
 #sparx {
-  float: right;
-  color: #ca0813;
-  font-size: 12pt
+  color: black;
+  font-size: 60pt
+  margin: 0 0 0 2rem;
+  text-align: left;
 }
 
 #content {
