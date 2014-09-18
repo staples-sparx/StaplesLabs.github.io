@@ -20,6 +20,10 @@ Data, Machine Learning, Predictive Modeling, Real-time Distributed
 Systems, Clojure** have all been our bread-and-butter since 2010, and
 this is not going to stop any time soon!
 
+# Our Vision
+
+# Our products
+
 # Join the Team
 
 Sound like a cool challenge? We are **seeking talented and passionate

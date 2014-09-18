@@ -145,3 +145,28 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
   width: 23em;
   margin-bottom: 1em;
 }
+
+#header {
+  margin: auto;
+  width: 80%;
+  border-bottom: dotted gray;
+}
+
+#logo {
+  float: left;
+}
+
+#staples {
+  float: right;
+
+}
+
+#sparx {
+  float: right;
+  color: #ca0813;
+  font-size: 12pt
+}
+
+#content {
+  text-align:left;
+}

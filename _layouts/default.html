@@ -13,82 +13,21 @@
   <meta name="author" content="functor" />
   <meta name="description" content="{{ site.description }}" />
 
-  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  <link rel="stylesheet" href="/css/sparx.css" type="text/css" media="screen, projection" />
 
-  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/mommy.css" type="text/css" media="screen, projection" />
-
-  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
-  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
-  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
-  <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel='stylesheet' type='text/css'>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18936522-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 
-
 <body>
-    <center>
-    <br>
-    <section class="meta">
-      <table>
-	<tr>
-	  <td>
-	    <a href="/"><img src="/images/SIL_robot.png" height="220px"></a>
-	  </td>
-	  <td align="center">
-	    <p style="color: #ca0813; font-size: 12pt">Staples</font> <br>
-	    <p style="color:   black; font-size: 60pt">SparX</font> <br>
-	  </td>
-	  </tr>
-	</table>
-    </section>
 
-  <div id="banner-wrap">
-        <div class="container">
-            <div id="banner">
-
-                <div class="wsite-header"></div>
-				<div class="corner-left"></div>
-				<div class="corner-right"></div>
-
-                <div style="clear:both;"></div>
-            </div><!-- end banner -->
-        </div><!-- end container -->
-    </div><!-- end banner-wrap -->
-
-
- <div id="main-wrap">
-        <div class="container">
-   			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-
-<div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
-<table class='wsite-multicol-table'>
-<tbody class='wsite-multicol-tbody'>
-<tr class='wsite-multicol-tr'>
-<td class='wsite-multicol-col' style='width:100%;padding:0 25px'>
-
-<div class="paragraph" style="text-align:left;">
-{{ content }}
-
+<div id="header">
+  <img id="logo" src="/images/SIL_robot.png" height="220px">
+  <div id="staples" style="color: #ca0813; font-size: 12pt">Staples</div>
+  <div id="sparx" style="color:   black; font-size: 60pt">SparX</div>
 </div>
 
-</td>
-</tr>
-</tbody>
-</table>
+<div id="content">
+  {{ content }}
+</div>
 
 </body>
 </html>
