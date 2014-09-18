@@ -2,7 +2,7 @@
 layout: index
 ---
 
-<p style="">World Class Engineering & Machine Learning. At scale.</p>
+<p id="tagline">World Class Engineering & Machine Learning. At scale.</p>
 
 # You Said SparX?
 
@@ -10,9 +10,9 @@ Staples is the world's **3rd largest eCommerce player**. No problem is
 trivial. If you want scale, a firehose of data, and the chance to
 target and impact **50 million users**... we got it!
 
-At SparX, we are a **small team** (20 people), operating in **startup
-mode** and in charge of pushing the envelope to **take things to the
-next level**.
+SparX is a **small team** (30 people), operating in **startup mode**:
+we are in charge of pushing the envelope to **take things to the next
+level**.
 
 We specialize in cutting-edge technologies and we leverage them to
 build actual products which directly impact Staples bottom line: **Big
@@ -23,7 +23,7 @@ this is not going to stop any time soon!
 # Join the Team
 
 Sound like a cool challenge? We are **seeking talented and passionate
-people** with talent in machine learning, engineering, design,
+people** with a flair for machine learning, engineering, design,
 products, operations, and more.
 
 Our current opened positions are:
@@ -33,7 +33,7 @@ Our current opened positions are:
 - [Product Manager](jobs/product_manager.html)
 
 Get in touch at
-[mailto:careers@stapleslabs.com](careers@stapleslabs.com), you'll
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
 never look back!
 
 # Location

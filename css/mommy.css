@@ -12,7 +12,10 @@
 }
  .container { margin: 0 auto; width: 960px; }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; min-width:960px; background:#fff; }
- div.paragraph a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; font-size: 14px;}
+ div.paragraph a, #nav-wrap a, h2 a {
+  color: #000;
+  border-bottom: 1px solid #;
+}
  p a, #nav-wrap a, h2 a { color: #000; border-bottom:1px dashed #000; }
  a:hover { border-bottom:none; }
  blockquote { font-style:italic; border-left:4px solid #ddd; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; color:#888; }
@@ -134,3 +137,11 @@ div.paragraph ul, div.paragraph ol { padding-left: 2.3em !important; margin: 5px
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+#tagline {
+  font-style: italic;
+  font-size: 20pt;
+  margin: auto;
+  width: 23em;
+  margin-bottom: 1em;
+}
