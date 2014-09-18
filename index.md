@@ -2,7 +2,7 @@
 layout: index
 ---
 
-<p id="tagline">World Class Engineering & Machine Learning.<br/> At scale.</p>
+<p id="tagline">World Class Engineering & Machine Learning. At scale.</p>
 
 # You Said SparX?
 
