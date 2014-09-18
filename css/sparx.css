@@ -1,5 +1,5 @@
- body {
-  font-family: "Times, Times New Roman, serif";
+body {
+  font-family: Times, Times New Roman, serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-size: 14pt;
@@ -9,8 +9,17 @@
 
 a {
   text-decoration: none;
-  color: #000;
-  border-bottom: 1px solid #888;
+  color: rgb(0, 136, 204);
+}
+
+h1 {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 2rem;
 }
 
 #tagline {
@@ -37,7 +46,7 @@ a {
 
 #sparx {
   color: black;
-  font-size: 60pt
+  font-size: 60pt;
   margin: 0 0 0 2rem;
   text-align: left;
 }
