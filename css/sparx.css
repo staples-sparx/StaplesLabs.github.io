@@ -169,4 +169,6 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 #content {
   text-align:left;
+  clear: both;
+  margin: 1rem 5rem;
 }
