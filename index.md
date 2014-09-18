@@ -2,13 +2,13 @@
 layout: index
 ---
 
-<p id="tagline">World Class Engineering & Machine Learning, at scale!.</p>
+<p id="tagline">World Class Engineering & Machine Learning. At scale!</p>
 
 # You Said SparX?
 
 Staples is the world's **3rd largest eCommerce player**. No problem is
-trivial. You want scale, a firehose of data, and the chance to target
-and impact **50 million users**... we got it!
+trivial. You want scale, a firehose of data, the chance to target &
+impact **50 million users**... we got it!
 
 SparX is a **small team** (30 people), operating in **startup mode**:
 we are in charge of pushing the envelope and **taking things to the
@@ -38,9 +38,7 @@ never look back!
 
 # Location
 
-Our offices are located in San Mateo (CA) and Seattle (WA).
-
-Our main office is
+Our main office is located at:
 
 **2 W 5th Ave, 3rd Floor, San Mateo, CA 94402.**
 
