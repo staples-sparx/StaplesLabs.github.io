@@ -6,7 +6,7 @@
   font-family: "Times, Times New Roman, serif";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-size: 12pt;
+  font-size: 14pt;
   color: #3e3e3e;
   background:url(theme/footer-bg.png?197114) repeat;
 }
@@ -20,8 +20,8 @@
  a:hover { border-bottom:none; }
  blockquote { font-style:italic; border-left:4px solid #ddd; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; color:#888; }
  .wsite-multicol-table-wrap {margin:0 !important;}
- h2 { font-size: 24px; padding: .5em 0 .2em 0; line-height: 1.2; font-weight: normal; color: #000; }
- div.paragraph { line-height: 1.5; padding: .5em 0; font-size: 18px; padding-left:80px;}
+ h2 { padding: .5em 0 .2em 0; line-height: 1.2; font-weight: normal; color: #000; }
+ div.paragraph { line-height: 1.5; padding: .5em 0; padding-left:80px;}
  p { line-height: 1.5; padding: .5em 0; }
  div#content {min-height:400px;}
  #header-wrap { padding:50px 0px 5px; }
