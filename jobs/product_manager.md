@@ -6,21 +6,61 @@ layout: index
 
 ### Introduction
 
-Do you grok Clojure and Big Data? Excited about large systems and machine learning? Have you ever wanted to work with the agility and speed of a start-up environment, while being backed by the resources of a multi-billion dollar company? Now’s your chance!
-Staples, the world’s second largest internet retailer, recently completed the acquisition of Runa, a software company based in San Mateo, Calif. that helps online retailers increase sales by personalizing the shopping experience. We’re ramping up to hire a cutting-edge team for our latest Staples lab, with offices located in downtown San Mateo, four blocks from the train station.
-The San Mateo team will drive major initiatives in next-generation digital platforms, personalization and big data research, to be leveraged in 26 countries.
+For Staples, the world’s **3rd largest eCommerce player**, no problem
+is trivial. You want scale, a fire hose of data and the chance to
+target and impact a **24 billion dollar business**?  We’ve got that
+and more!
+
+SparX is a **small team** (30 people) based in San Mateo, CA which
+specializes in **eCommerce** and is dedicated to leveraging
+**personalization & big data to drive sales & profit**.  We operate in
+**startup mode but have the backing of Staples**.
+
+The San Mateo team is currently driving major initiatives in
+**next-generation digital platforms, personalization, marketing,
+pricing, order fulfillment, supply chain, merchandizing**, and **big
+data research**, to be leveraged in 26 countries.
+
+We’re hiring individuals who **bring strong product, business, and
+eCommerce experience** to our cutting-edge team. You will get a chance
+to **influence Staples re-invention** as it expands to a wider
+**marketplace** approach and **aggressively automate, personalize and
+scale its operations and user experience.
 
 ### Position Summary
 
-* Play a part in transforming the business processes and systems used at one of the world’s largest e-commerce operations. Use your expertise in data visualization and analytics to transform numbers and data into pictures and graphs that get to the very essence of things.
-* We are looking to fill multiple roles for our Innovation Lab. If you are an experienced engineer with the following experience please apply! We have multiple opportunities for individual contributors as well as leadership roles. 
+The Product Manager will be responsible for representing the SparX
+team driving business requirements for our existing SparX products and
+drive the creation of new products or processes with high-impact on
+Staples bottom-line. This role will partner strategically with both
+internal engineering teams and external teams in order to deliver
+SparX products to all Staples business units.  The vision for this
+role is to **bring world-class eCommerce expertise to the SparX
+team**, to drive increased sales and have a **tremendous impact** on
+Staples as a whole.
 
 ### Requirements
-* BA/BS in Computer Science, Math, Physics, or other technical field
-* Minimum 5 years engineering or product management experience with Internet products and technologies
-* Experience with end user software facing applications, and User Experience (how much experience do I need?)
-* MS in Computer Science, Math, Physics, or other technical field
-* Demonstrated understanding of what it means for products to be intuitive and usable.
-* Experience in machine learning, statistics, and building predictive systems
-* A thorough understanding of how business needs drive product features
-* Have a proven track record planning, scoping, releasing, and maintaining the lifecycle of successful products
+
+* Bachelors degree
+* Minimum 6 years related product management experience
+
+### Preferred
+
+* Experience with Big Data & Data Science based product development
+* Demonstrated understanding of online merchandising, marketing and/or
+  online interface design experience
+* Previous experience with high-leverage and innovative eCommerce
+  players such as Amazon, Walmart, Target
+* Experience with order management, fulfillment center, distribution
+  centers, supply chains
+* Experience with pricing & marketing strategies in an eCommerce context
+* High level of attention to detail, and the ability to work
+  independently, adjust priorities, and work in a continuously
+  changing environment
+* Strong strategic, analytical and critical thinking skills; ability
+  to break down complex problems and formulate plans, experience with
+  test & learn methodologies
+* Proven ability to collaborate broadly with flexible, positive
+  attitude and ability to consistently deliver results
+* Exceptional oral and written communication skills; ability to
+  communicate to the senior executive levels
