@@ -38,9 +38,7 @@ never look back!
 
 # Location
 
-Our main office is located at:
+Our main office is located (above the Comerica Bank, just off El Camino Real) at:
 
 [2 W 5th Ave, 3rd Floor, San Mateo, CA 94402](https://goo.gl/maps/0VJZY)
 
-If you have trouble finding the place, this is the **same building as
-CoAmerica**.
