@@ -1,7 +1,6 @@
 ---
 layout: index
 ---
-<title>Staples SparX</title>
 
 <p id="tagline">World Class Engineering & Machine Learning. At scale!</p>
 
