@@ -6,21 +6,25 @@ layout: index
 
 ### Introduction
 
-Do you grok Clojure and Big Data? Excited about large systems and
-machine learning? Have you ever wanted to work with the agility and
-speed of a start-up environment, while being backed by the resources
-of a multi-billion dollar company? Now’s your chance!
+SparX is a small engineering team focused on applying online machine
+learning and predictive modeling to eCommerce (impacting a 24 billion
+dollar business).
 
-Staples, the world’s second largest internet retailer, recently
-completed the acquisition of Runa, a software company based in San
-Mateo, Calif. that helps online retailers increase sales by
-personalizing the shopping experience. We’re ramping up to hire a
-cutting-edge team for our latest Staples lab, with offices located in
-downtown San Mateo, four blocks from the train station.
+We apply engineering and data science to tough problems such as
+dynamic pricing, shipping estimations, personalized emails, and
+multi-variate testing.
 
-The San Mateo team will drive major initiatives in next-generation
-digital platforms, personalization and big data research, to be
-leveraged in 26 countries.
+We are always looking for talent in data-science, engineering and
+devops. Bonus points if you can bridge 2 of these together. We love
+people with strong fundamentals who can dive deep.
+
+We're a small team, so you will have an opportunity for a high-impact
+role, targeting over 50 million users. But our best perk is our
+colleagues: a diverse and extremely talented team of seasoned
+engineers and data-scientists.
+
+We are located in San Mateo, walking distance from the Cal-Train
+station. Come visit or apply online at http://staples-sparx.com.
 
 ### Requirements
 
