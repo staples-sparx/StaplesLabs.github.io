@@ -41,13 +41,8 @@ well as leadership roles. 　
 
 * BA/BS in Computer Science, Math, Physics, or other technical field
 
-* Minimum 3 years of relevant software development experience with
-  both functional and object-oriented design and development, preferably
-  within an agile environment enough? Is 1 year enough)
-
-* Experience developing large-scale web-based applications using Java
-  and other object-oriented languages. (Need to define Experience…same
-  comments as above)
+* Experience with large-scale web-based applications using Java
+  and other object-oriented languages.
 
 ### Preferred
 

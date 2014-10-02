@@ -4,7 +4,7 @@ layout: index
 
 ## Software Engineer
 
-### Position Summary
+### Introduction
 
 SparX is a small engineering team focused on applying online machine
 learning and predictive modeling to eCommerce (impacting a 24 billion
@@ -25,29 +25,6 @@ We are located in San Mateo, walking distance from the Cal-Train
 station. Come visit or apply online at http://staples-sparx.com.
 
 
-### Responsibilities
-
-* Hands on development, design and testing of innovative products
-
-* Support the development of multiple components
-
-* Work on a small team as a self-starter
-
-* Test at the unit, functional and integration level
-
-* Working on legacy code as well as green field development
-
-* Actively track new languages and technologies
-
-* Provide on-call support as needed
-
-* Collaborate with Product, QA , Integration and Support teams
-
-* We are looking to fill multiple roles for our Innovation Lab. If you
-  are an experienced engineer with the following experience please
-  apply! We have multiple opportunities for individual contributors as
-  well as leadership roles. 　
-
 ### Requirements
 
 * BA/BS in Computer Science, Math, Physics, or other technical field
@@ -57,7 +34,7 @@ station. Come visit or apply online at http://staples-sparx.com.
   or object-oriented design and development, preferably within an
   agile environment (if it’s “preferable” put it under preferred)
 
-* Experience coding with Clojure , Ruby , Scala , Python or Java
+* Experience coding with Clojure, Java, Lisp, Python or Ruby
 
 ### Preferred
 

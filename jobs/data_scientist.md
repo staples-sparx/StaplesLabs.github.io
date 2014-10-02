@@ -22,22 +22,6 @@ The San Mateo team will drive major initiatives in next-generation
 digital platforms, personalization and big data research, to be
 leveraged in 26 countries.
 
-### Position Summary
-
-* The Data Scientist will analyze Staples logs, user actions and other
-  data collected by Staples and comes up with algorithms for Runa
-  personalization algorithms.
-
-* Work with Product owners to understand the problems.
-
-* Work on identifying, collecting and processing data required for the
-  algorithms
-
-* Work on coming up with algorithms and testing on a holdout set.
-
-* Work with developers to get the algorithms implemented and measuring
-  the performance of the algorithms in real world
-
 ### Requirements
 
 * Bachelor's / Master's degree in Computer Science or Phd
