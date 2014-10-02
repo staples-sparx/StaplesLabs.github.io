@@ -6,15 +6,24 @@ layout: index
 
 ### Position Summary
 
-Build robust and scalable systems, and unleash Clojure’s unique
-capabilities to push the boundary of what is possible. Make complex
-machine learning and data models run so fast that they are
-indistinguishable from magic.
+SparX is a small engineering team focused on applying online machine
+learning and predictive modeling to eCommerce (impacting a 24 billion
+dollar business). Our stack is 100% Clojure, service oriented,
+targeting 50 million users with 1ms SLAs. We apply engineering and
+data science to tough problems such as dynamic pricing, shipping
+estimations, personalized emails, and multi-variate testing. We are
+always looking for talent in data-science, engineering and
+devops. Bonus points if you can bridge 2 of these together. We love
+people with strong fundamentals who can dive deep.
 
-We are looking to fill multiple roles for our Innovation Lab. If you
-are an experienced engineer with the following experience please
-apply! We have multiple opportunities for individual contributors as
-well as leadership roles. 　
+We're a small team, so you will have an opportunity for a high-impact
+role, targeting over 50 million users. But our best perk is our
+colleagues: a diverse and extremely talented team of seasoned
+engineers and data-scientists.
+
+We are located in San Mateo, walking distance from the Cal-Train
+station. Come visit or apply online at http://staples-sparx.com.
+
 
 ### Responsibilities
 

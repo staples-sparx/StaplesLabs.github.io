@@ -35,6 +35,7 @@ never look back!
 
 - [Data Scientist](jobs/data_scientist.html)
 - [Software Engineer](jobs/software_engineer.html)
+- [DevOps](jobs/devops.html)
 - [Product Manager](jobs/product_manager.html)
 
 # Location

@@ -6,11 +6,21 @@ layout: index
 
 ### Introduction
 
-Have you ever wanted to work with the agility and speed of a start-up
-environment, while being backed by the resources of a multi-billion
-dollar company? Have you ever wanted to work on developing bleeding
-edge algorithms that could impact millions of users? Now's your
-chance!
+Do you grok Clojure and Big Data? Excited about large systems and
+machine learning? Have you ever wanted to work with the agility and
+speed of a start-up environment, while being backed by the resources
+of a multi-billion dollar company? Now’s your chance!
+
+Staples, the world’s second largest internet retailer, recently
+completed the acquisition of Runa, a software company based in San
+Mateo, Calif. that helps online retailers increase sales by
+personalizing the shopping experience. We’re ramping up to hire a
+cutting-edge team for our latest Staples lab, with offices located in
+downtown San Mateo, four blocks from the train station.
+
+The San Mateo team will drive major initiatives in next-generation
+digital platforms, personalization and big data research, to be
+leveraged in 26 countries.
 
 ### Position Summary
 
