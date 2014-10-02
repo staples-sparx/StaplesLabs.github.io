@@ -41,20 +41,24 @@ well as leadership roles. 　
 
 * BA/BS in Computer Science, Math, Physics, or other technical field
 
-* Experience with large-scale web-based applications using Java
-  and other object-oriented languages.
-
-### Preferred
-
-* MS in Computer Science, Math, Physics, or other technical field
-
 * A passion for innovation and pushing the envelope, while being down
   to earth and pragmatic
 
-* A thorough understanding of how business needs drive product features
+* You think about edge cases and performance implications of what you
+  build.
+
+* You know when to do it fast, when to do it right, and how to find
+  the best compromise between the two.
+
+### Preferred
+
+* Experience with large-scale web-based applications using Java
+  and other object-oriented languages.
 
 * Understanding of cloud native distributed systems
 
 * Understanding of auto scaling and fault tolerance
 
 * Experience with high availability web services
+
+* A thorough understanding of how business needs drive product features

@@ -29,17 +29,21 @@ station. Come visit or apply online at http://staples-sparx.com.
 
 * BA/BS in Computer Science, Math, Physics, or other technical field
 
-* Minimum 1 year of relevant (what’s relevant? Either define or take
-  the word out) software development experience with either functional
-  or object-oriented design and development, preferably within an
-  agile environment (if it’s “preferable” put it under preferred)
+* A passion for innovation and pushing the envelope, while being down
+  to earth and pragmatic
 
-* Experience coding with Clojure, Java, Lisp, Python or Ruby
+* You think about edge cases and performance implications of what you
+  build.
+
+* You know when to do it fast, when to do it right, and how to find
+  the best compromise between the two.
 
 ### Preferred
 
 * Experience developing large-scale web-based applications and
   distributed systems
+
+* Experience with Clojure, Java, Lisp or Python
 
 * Experience in operationalizing and debugging high availability
   services
