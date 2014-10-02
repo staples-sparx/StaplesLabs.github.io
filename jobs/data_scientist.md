@@ -78,3 +78,9 @@ leveraged in 26 countries.
 * Strong bias for action, without compromising quality
 
 * Ability to adapt as job requirements change or evolve
+
+# Join the Team
+
+Sound like a cool challenge? Get in touch at
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
+never look back!

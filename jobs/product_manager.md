@@ -73,3 +73,9 @@ Staples as a whole.
 
 * Exceptional oral and written communication skills; ability to
   communicate to the senior executive levels
+
+# Join the Team
+
+Sound like a cool challenge? Get in touch at
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
+never look back!

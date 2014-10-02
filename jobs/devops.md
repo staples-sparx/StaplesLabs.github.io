@@ -62,3 +62,9 @@ well as leadership roles. 　
 * Experience with high availability web services
 
 * A thorough understanding of how business needs drive product features
+
+# Join the Team
+
+Sound like a cool challenge? Get in touch at
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
+never look back!

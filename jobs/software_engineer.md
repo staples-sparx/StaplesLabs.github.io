@@ -52,3 +52,9 @@ station. Come visit or apply online at http://staples-sparx.com.
 
 * A thorough understanding of how business needs drive product
   features
+
+# Join the Team
+
+Sound like a cool challenge? Get in touch at
+[careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
+never look back!
