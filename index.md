@@ -39,7 +39,8 @@ never look back!
 
 # Location
 
-Our main office is located (above the Comerica Bank, just off El Camino Real) at:
+Our main office is located (**above the Comerica Bank**, just off El
+Camino Real) at:
 
 [2 W 5th Ave, 3rd Floor, San Mateo, CA 94402](https://goo.gl/maps/0VJZY)
 
