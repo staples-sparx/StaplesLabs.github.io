@@ -2,7 +2,7 @@
 layout: index
 ---
 
-## Position: Product Manager
+##  Product Manager
 
 ### Introduction
 
@@ -42,25 +42,34 @@ Staples as a whole.
 ### Requirements
 
 * Bachelors degree
+
 * Minimum 6 years related product management experience
 
 ### Preferred
 
 * Experience with Big Data & Data Science based product development
+
 * Demonstrated understanding of online merchandising, marketing and/or
   online interface design experience
+
 * Previous experience with high-leverage and innovative eCommerce
   players such as Amazon, Walmart, Target
+
 * Experience with order management, fulfillment center, distribution
   centers, supply chains
+
 * Experience with pricing & marketing strategies in an eCommerce context
+
 * High level of attention to detail, and the ability to work
   independently, adjust priorities, and work in a continuously
   changing environment
+
 * Strong strategic, analytical and critical thinking skills; ability
   to break down complex problems and formulate plans, experience with
   test & learn methodologies
+
 * Proven ability to collaborate broadly with flexible, positive
   attitude and ability to consistently deliver results
+
 * Exceptional oral and written communication skills; ability to
   communicate to the senior executive levels
