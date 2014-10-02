@@ -7,10 +7,6 @@ layout: index
 
 # Did You Say SparX?
 
-Staples is the world's **3rd largest eCommerce player**. No problem is
-trivial. You want scale, a firehose of data, the chance to target &
-impact **50 million users**... we got it!
-
 SparX is a **small team** (30 people), operating in **startup mode**:
 we are in charge of pushing the envelope and **taking things to the
 next level**.
@@ -20,6 +16,10 @@ build actual products which directly impact Staples bottom line: **Big
 Data, Machine Learning, Predictive Modeling, Real-time Distributed
 Systems, Clojure** have all been our bread-and-butter since 2010, and
 this is not going to stop any time soon!
+
+Staples is the world's **3rd largest eCommerce player**. No problem is
+trivial. You want scale, a firehose of data, the chance to target &
+impact **50 million users**... we got it!
 
 # Join the Team
 
