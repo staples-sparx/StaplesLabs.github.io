@@ -5,7 +5,7 @@ layout: index
 
 <p id="tagline">World Class Engineering & Machine Learning. At scale!</p>
 
-# Help us make SparX
+# Did You Say SparX?
 
 Staples is the world's **3rd largest eCommerce player**. No problem is
 trivial. You want scale, a firehose of data, the chance to target &
