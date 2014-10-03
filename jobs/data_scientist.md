@@ -28,7 +28,7 @@ engineers and data-scientists.
 
 At Sparx we believe that providing an environment with the freedom to explore and share is the quickest 
 way to innovate.
-For instance, we have invested in a powerful experimentation platform that enables us to quickly try 
+For instance, we have invested in developing a powerful experimentation platform that enables us to quickly try 
 out newer algorithms to learn and innovate fast. Also a lot of our scientists and engineers actively contribute 
 to open source projects and regularly present our learnings at conferences and through articles.
 
