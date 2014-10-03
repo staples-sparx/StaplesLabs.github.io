@@ -12,23 +12,30 @@ dollar business).
 
 We apply engineering and data science to tough problems such as
 dynamic pricing, shipping estimations, personalized emails, and
-multi-variate testing.
+multi-variate testing. 
 
 We are always looking for talent in data-science, engineering and
 devops. Bonus points if you can bridge 2 of these together. We love
 people with strong fundamentals who can dive deep.
 
 We're a small team, so you will have an opportunity for a high-impact
-role, targeting over 50 million users. But our best perk is our
+role, targeting over 50 million users. You will be working on some of the bleeding edge
+problems with the freedom to chose your language, tools and algorithms. You will have 
+access to all the resources and data from the second biggest etailer in the world. 
+But our best perk is our
 colleagues: a diverse and extremely talented team of seasoned
-engineers and data-scientists.
+engineers and data-scientists. 
+
+Quick feedback ... Willing to experiment (backed by a strong experimentation platform)
+Encouraged to work on open source tools and present at conferences
+
 
 We are located in San Mateo, walking distance from the Cal-Train
 station. Come visit or apply online at http://staples-sparx.com.
 
 ### Requirements
 
-* Bachelor's / Master's degree in Computer Science or Phd
+* Bachelor's / Master's / Phd in Computer Science or Phd in Physics, Mathematics or related fields 
 
 * Minimum 1 years of experience with a mix of the following:
 
@@ -37,29 +44,33 @@ station. Come visit or apply online at http://staples-sparx.com.
   following: Multivariate Regression, Logistic Regression, Support
   Vector Machines, Bagging, Boosting, Decision Trees, Lifetime
   analysis, common clustering algorithms, Optimization, Stochastic
-  Processes.
+  Processes, Hidden Markov Models.
 
-* Statistical analysis tools such as Scipy, R, SAS, Matlab and/or
+* Statistical analysis tools such as Scipy, R,  Matlab and/or
   Weka.
 
 * Data Mining Distributed databases and query languages and/or general
-  map reduce computing : Hadoop, Spark, etc
+  map reduce computing : Hadoop, Spark etc.
 
-* Information retrieval
+* Information retrieval.
+
+* Good programming skills. 
 
 * Exceptional interpersonal and communication skills, including the
   ability to describe the logic and implications of a complex model to
   all types of business partners.
 
-* Experience interacting with cross functional teams
+* Experience interacting with cross functional teams.
 
 * Above average capabilities with SQL is a plus.
 
-* Experience in eCommerce (Retail or Marketplaces) is a plus
+* Experience in eCommerce (Retail or Marketplaces) is a plus.
 
 * Experience functioning independently while providing regular
   updates, identifying challenges, and escalating via management chain
   in order to achieve the set goals.
+
+* Contribution to open source projects is a plus.
 
 ### Personal Attributes
 
