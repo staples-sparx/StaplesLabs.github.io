@@ -26,9 +26,11 @@ But our best perk is our
 colleagues: a diverse and extremely talented team of seasoned
 engineers and data-scientists. 
 
-Quick feedback ... Willing to experiment (backed by a strong experimentation platform)
-Encouraged to work on open source tools and present at conferences
-
+At Sparx we believe that providing an environment with the freedom to explore and share is the quickest 
+way to innovate.
+For instance, we have invested in a powerful experimentation platform that enables us to quickly try 
+out newer algorithms to learn and innovate fast. Also a lot of our scientists and engineers actively contribute 
+to open source projects and regularly present our learnings at conferences and through articles.
 
 We are located in San Mateo, walking distance from the Cal-Train
 station. Come visit or apply online at http://staples-sparx.com.
