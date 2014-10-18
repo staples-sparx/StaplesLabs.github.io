@@ -26,6 +26,7 @@ h2 {
   margin: auto;
   width: 40rem;
   border: none;
+  border-collapse: separate;
 }
 
 #staples {
@@ -53,8 +54,10 @@ h2 {
 }
 
 #nav-bar td {
-  border-top: thin dashed gray;
-  border-bottom: thin dashed gray;
+  border-top: thin solid #eee;
+  border-bottom: thin solid #eee;
+  text-align: center;
+  padding: 0.25rem 0
 }
 
 #content {
