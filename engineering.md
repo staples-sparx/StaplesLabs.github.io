@@ -7,4 +7,6 @@ layout: index
 
 ## Clojure
 
-## Ops
+## Op
+
+Technologies we use
