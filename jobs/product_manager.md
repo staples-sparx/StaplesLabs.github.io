@@ -1,6 +1,6 @@
 ---
 title: SparX - Product Manager
-layout: index
+layout: default
 ---
 
 ##  Product Manager

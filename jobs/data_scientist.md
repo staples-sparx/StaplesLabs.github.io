@@ -1,6 +1,6 @@
 ---
 title: SparX - Data Scientist
-layout: index
+layout: default
 ---
 
 ## Data Scientist

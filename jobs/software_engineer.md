@@ -1,6 +1,6 @@
 ---
 title: SparX - Software Engineer
-layout: index
+layout: default
 ---
 
 ## Software Engineer

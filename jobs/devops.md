@@ -1,6 +1,6 @@
 ---
 title: SparX - DevOps Engineer
-layout: index
+layout: default
 ---
 
 ## DevOps Engineer

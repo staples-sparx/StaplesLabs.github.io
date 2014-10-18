@@ -1,6 +1,6 @@
 ---
 title: SparX - What We Do
-layout: index
+layout: default
 ---
 
 # Data Science
