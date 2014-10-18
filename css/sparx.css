@@ -36,7 +36,7 @@ h2 {
   margin: auto;
   width: 40rem;
   border: none;
-  border-bottom: 2px dashed gray;
+  border-bottom: thin dashed gray;
 }
 
 #staples {
@@ -48,8 +48,8 @@ h2 {
 
 #sparx {
   color: black;
-  font-size: 55pt;
-  margin: 0 0 0 2rem;
+  font-size: 65pt;
+  margin: -0.7rem 0 0 2rem;
   text-align: left;
 }
 
