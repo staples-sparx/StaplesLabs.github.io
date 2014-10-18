@@ -1,4 +1,5 @@
 ---
+title: SparX - Product Manager
 layout: index
 ---
 
