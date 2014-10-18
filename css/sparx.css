@@ -26,7 +26,6 @@ h2 {
   margin: auto;
   width: 40rem;
   border: none;
-  border-bottom: thin dashed gray;
 }
 
 #staples {
@@ -51,6 +50,11 @@ h2 {
 #homepage #sparx {
   font-size: 80pt;
   margin: -0.7rem 0 0 2rem;
+}
+
+#nav-bar td {
+  border-top: thin dashed gray;
+  border-bottom: thin dashed gray;
 }
 
 #content {
