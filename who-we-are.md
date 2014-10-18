@@ -1,6 +1,6 @@
 ---
 title: SparX - Who We Are
-layout: index
+layout: default
 ---
 
 # Our Vision
