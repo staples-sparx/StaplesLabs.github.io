@@ -7,25 +7,32 @@ layout: index
 
 # Did You Say SparX?
 
-SparX is a **small team** (30 people), operating in **startup mode**:
-we are in charge of pushing the envelope and **taking things to the
-next level**.
+SparX is a **[small team](/w-we-are)** executing on the firm belief
+that the future of eCommerce belongs to technical innovation and
+operational excellence.
 
-We specialize in cutting-edge technologies and we leverage them to
-build actual products which directly impact Staples bottom line: **Big
+We operate in [skunk works](https://en.wikipedia.org/wiki/Skunk_Works)
+mode within Staples, with an exceptional degree of autonomy and tasked
+with building the products that will shape Staples' future.
+
+We do not wait for technical innovation to bake before we start
+leveraging it. Quite the contrary, we recognize the trend early and
+push in driving the technology forward. We have been leveraging **Big
 Data, Machine Learning, Predictive Modeling, Real-time Distributed
-Systems, Clojure** have all been our bread-and-butter since 2010, and
-this is not going to stop any time soon!
+Systems, and Clojure** as early as 2010. We draw all this together to
+build [actual products](/w-we-do), running in production, and which
+directly impact Staples bottom line.
 
-Staples is the world's **3rd largest eCommerce player**. No problem is
-trivial. You want scale, a firehose of data, the chance to target &
-impact **50 million users**... we got it!
+The great thing is that Staples is the world's **3rd largest eCommerce
+player**. So no problem is trivial and the sky is the limit. You want
+scale, a firehose of data, the chance to target & impact **50 million
+users**... we got it!
 
 # Join the Team
 
-Sound like a cool challenge? We are **seeking talented and passionate
-people** with a flair for machine learning, engineering, design,
-products, operations, and more.
+Sound like a cool challenge? We are always **seeking talented and
+passionate people** with a flair for machine learning, engineering,
+design, products, operations, and more.
 
 Get in touch at
 [careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
