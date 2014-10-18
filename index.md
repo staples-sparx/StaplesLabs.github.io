@@ -3,8 +3,6 @@ title: SparX
 layout: index
 ---
 
-<p id="tagline">World Class Engineering & Machine Learning. At scale!</p>
-
 # Did You Say SparX?
 
 SparX is a [small team](/w-we-are) executing on the firm belief that
