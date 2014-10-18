@@ -7,8 +7,8 @@ layout: index
 
 # Did You Say SparX?
 
-SparX is a **[small team](/w-we-are)** executing on the firm belief
-that the future of eCommerce belongs to technical innovation and
+SparX is a [small team](/w-we-are) executing on the firm belief that
+the future of eCommerce belongs to technical innovation and
 operational excellence.
 
 We operate in [skunk works](https://en.wikipedia.org/wiki/Skunk_Works)
@@ -25,14 +25,15 @@ directly impact Staples bottom line.
 
 The great thing is that Staples is the world's **3rd largest eCommerce
 player**. So no problem is trivial and the sky is the limit. You want
-scale, a firehose of data, the chance to target & impact **50 million
+scale, a firehose of data, the chance to target an impact **50 million
 users**... we got it!
 
 # Join the Team
 
-Sound like a cool challenge? We are always **seeking talented and
-passionate people** with a flair for machine learning, engineering,
-design, products, operations, and more.
+Sound like the kind of environment where you would make a difference?
+We are always **seeking talented and passionate people** with a flair
+for machine learning, engineering, design, products, operations, and
+more.
 
 Get in touch at
 [careers@stapleslabs.com](mailto:careers@stapleslabs.com), you'll
