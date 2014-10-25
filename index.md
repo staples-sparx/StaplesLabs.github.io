@@ -5,20 +5,20 @@ layout: index
 
 # Did You Say SparX?
 
-SparX is a [small team](/w-we-are) executing on the firm belief that
+SparX is a [small team](/wo-we-are) executing on the firm belief that
 the future of eCommerce is driven by technical innovation and
 operational excellence.
 
 We operate in [skunk works](https://en.wikipedia.org/wiki/Skunk_Works)
 mode within Staples, with an exceptional degree of autonomy, tasked to
-build the products that will shape Staples' future.
+design and build the products that will shape Staples' future.
 
 We do not wait for technical innovation to bake before we start
 leveraging it. Quite the contrary, we recognize the trend early and
 push in driving the technology forward. We have been leveraging **Big
 Data, Machine Learning, Predictive Modeling, Real-time Distributed
 Systems, and Clojure** as early as 2010. We draw all this together to
-build [actual products](/w-we-do), running in production, and which
+build [actual products](/what-we-do), running in production, and which
 directly impact Staples' bottom line.
 
 The great thing is that Staples is the world's **3rd largest eCommerce
@@ -29,9 +29,17 @@ target and impact **50 million users**... we got it!
 # Join the Team
 
 Sounds like the kind of environment in which you would make a
-difference?  We are always **seeking talented and passionate people**
+difference? We are always **seeking talented and passionate people**
 with a flair for machine learning, engineering, design, products,
-operations, and more.
+operations, and more. Bonus points if you can bridge 2 or more of
+these together. We love people with strong fundamentals and who can
+dive deep.
+
+We're a small team, so you will have an opportunity for a high-impact
+role, targeting over 50 million users.
+
+But our best perk is our colleagues: a diverse and extremely talented
+team of seasoned engineers, data-scientists and eCommerce experts.
 
 Get in touch at
 [careers@stapleslabs.com](mailto:careers@stapleslabs.com)  --  you'll
