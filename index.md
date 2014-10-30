@@ -5,7 +5,7 @@ layout: index
 
 # Did You Say SparX?
 
-SparX is a [small team](/wo-we-are) executing on the firm belief that
+SparX is a [small team](/who-we-are) executing on the firm belief that
 the future of eCommerce is driven by technical innovation and
 operational excellence.
 
@@ -39,7 +39,7 @@ We're a small team, so you will have an opportunity for a high-impact
 role, targeting over 50 million users.
 
 But our best perk is our colleagues: a diverse and extremely talented
-team of seasoned engineers, data-scientists and eCommerce experts.
+team of stunning engineers, data-scientists and eCommerce experts.
 
 Get in touch at
 [careers@stapleslabs.com](mailto:careers@stapleslabs.com)  --  you'll
