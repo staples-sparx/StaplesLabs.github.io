@@ -135,7 +135,7 @@ the floor, it fosters your capacity to truly innovate.
 ### Bias for Action, Results & Fact-based Decisions
 
 Speed matters in business and to get tangible feedback you need to
-execute. This is why we have such a strong bias to action, mimimize
+execute. This is why we have such a strong bias to action, we mimimize
 meetings and emphasize fast delivery. We release to production
 multiple times a week. We quickly start our projects on a small scale,
 then grow them progressively to their full potential, learning along
@@ -150,18 +150,18 @@ the data, and surrender quickly to evidence when we are wrong. We are
 not afraid of being mistaken and change the course of action along the
 way, based on facts.
 
-Another benefit of basing decisions on facts & data is that it makes
-hierachy and roles completely irrevelants. The most junior person in
-the team can win a debate with the head of the office.
+Finally, another benefit of basing decisions on facts & data is that
+it makes hierachy and roles completely irrevelants. The most junior
+person in the team can win a debate with the head of the office.
 
 ### Freedom to Excel
 
 We seek excellence in all we do, and work hard in forging an
-environment nutures it.
+environment that nutures it.
 
 The first way you get a unique opportunity to excel, is by getting a
-chance to work day in and day out on extremely challenging
-problems. For instance:
+chance to work on extremely challenging problems -- day in and day
+out. For instance:
 
 - Modeling customer behavior on an individual basis, to the point
   where you can literally predict their action.
@@ -170,7 +170,7 @@ problems. For instance:
   with where Staples' wants to position itself for the next 10 years.
 - Conduct a lot of concurrent experiments at any point of time, and
   quickly reach statistical significance, but without sacrificing
-  significant traffic and or profits.
+  significant traffic or profits.
 - Building near real-time machine learning services with a 1ms
   SLA[^SLA] -- as in 99% of the API requests complete under one
   millisecond.
@@ -180,10 +180,10 @@ intelligence, and impecable execution. Wherever you currently stand,
 you _will_ feel challenged, and discover you end up achieving things
 you previously thought impossible.
 
-The second way we foster excellence is by providing you the freedom to
-learn and experiment:
+The second way we foster excellence is by providing you with the
+freedom you need to learn and experiment:
 
-- Our small team size mean that you do not have to convince 20 people
+- Our small team size means that you do not have to convince 30 people
   before you can start experimenting on an idea at a small
   scale. Secure buy-in from a few people in your team and run with
   it. Not all teams need to go at the same pace or in the same
@@ -194,11 +194,11 @@ learn and experiment:
 
 - We are ego-less and silo-less when searching for the best ideas: you
   can contribute effectively outside of your specialty or current
-  assignment. We fluidly exchange ideas.
+  assignment.
 
 - We provide sustainable working hours, so that you can recharge,
-  learn new things on your own, and come back the next day with your
-  full curiosity and brainpower.
+  learn new things on your own, think about it in the shower, and come
+  back the next day with your all your curiosity and brainpower.
 
 - We support rapid, eager and active learning by taking the time to
   help our colleagues, by sharing information openly and proactively,
@@ -207,8 +207,8 @@ learn and experiment:
   other very seriously, and also with a bias for colocation and
   in-person communication.
 
-The last thing that makes SparX is a great place to seek excellence is
-inspiration:
+Finally, the last thing that makes SparX is a great place to seek
+excellence is _inspiration_:
 
 - We are obsessed with finding, recognizing and recruiting exceptional
   talent. This makes SparX a great workplace, with stunning
@@ -220,42 +220,63 @@ inspiration:
 
 ### Discipline
 
-Responsible person:
-- _Thrive_ on Freedom
-- _Worthy_ of Freedom
+With great powers comes great responsibilities. We provide the freedom
+to experiment, innovate and excel. But, at the same time, it must come
+with a lot of operational rigor and discipline for things to be
+sustainable and avoid harmful failures. Especially when you are
+experimenting in production, will real dollars!
 
-With great powers comes great responsibility
-
-TBD
-
+- So the fabric of our team is the capacity to, at the same time:
+  - _thrive_ on freedom
+  - be _worthy_ of freedom
+- We monitor all experiments with rigourous multi-variate testing and
+  abort them early if necessary: before they become too harmful to the
+  customer experience or bottom line.
+- We automate all the boring processes to minimize the risk for error.
+- While we think big, we introduce changes in a controlled and gradual
+  manner. Be it at the code level, the system level or the product
+  level.
 
 ### Dive Deep, Invent & Simplify
 
-Leaders operate at all levels, stay connected to the details, and
+When applying your knowledge to challenging real world problems and
+pioneering new solutions, you cannot just stay at the surface, you
+cannot just settle for the original formulation.
+
+Our teams have the capacity to dive very deep, operate at all levels
+while stay connected to the details, and challenge prevailing
+assumptions when waranted.
+
+Leaders , and
 audit frequently. No task is beneath them.
 
   - Identify root causes and get beyond treating symptoms
-  - Re-conceptualize issues to *discover practical solutions to hard
-    problems*
+
+
+- require innovation and invention from their teams and always find
+  ways to simplify
+
   - *Challenge prevailing assumptions* when warranted, and *suggest
      better approaches*
+
+  - Re-conceptualize issues to *discover practical solutions to hard
+    problems*
+
   - Create new ideas that prove useful
+
   - *Keep us nimble by minimizing complexity and finding time to simplify*
 
- - applying their knowledge to real world problems
 
-- require innovation and invention from their teams and always find ways to simplify
+
 - focus on fundamental, not chase the latest fashion
 
-We strive for ingenuity and simplicity, always keeping the
-customer in mind.
+We strive for ingenuity and simplicity, always keeping the customer in
+mind.
 
 ### Passion
 
-- SparX is filled with people who love what they do and the products
-  we design and engineer.
-
-  - Care intensely about the company success
+SparX is filled with people who _love_ what they do, and care
+_intensely_ about the products they design and engineer.
 
 ## Our Tools
 
@@ -264,11 +285,12 @@ Here are some of the tools we love and use:
 - Spark
 - Clojure
 - Sci/Py
-- Hadoop
 - PostgreSQL
 - Linux
 - AWS
 - Kafka
+- Hadoop
+- GitHub
 
 [^api]: Application Programming interface
 [^sla]: Service Level Agreeement
