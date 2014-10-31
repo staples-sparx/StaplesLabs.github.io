@@ -22,7 +22,7 @@ largest internet retailer, Staples. We love it!
 
 Use data and technology to drive eCommerce to the point where every
 business process is optimized, and where every customer experience is
-special, personal, "indistiguisable from magic".
+special, personal, "indistinguishable from magic".
 
 ## How We Work
 
@@ -40,17 +40,17 @@ product recommendations, and multi-variate testing to name a few.
 SparX is a driver of innovation and change within Staples, but we do
 not work in the abstract, we are not a research lab. We design and
 build [actual products](/what-we-do), deploy them in production, where
-we measure their impact on the business with rigourous testing
+we measure their impact on the business with rigorous testing
 methodologies.
 
-This approach provides numberous benefits:
+This approach provides numerous benefits:
 
 - Business buy-in: you do not have to wait 5 years for the business to
   understand the potential of a novel idea. You can demonstrate its
   value early on, in production, on a portion of the Staples customer
-  base with rigourous A/B testing. Not only the solution is already
+  base with rigorous A/B testing. Not only the solution is already
   built, but you can quantify its impact on the top and bottom line:
-  we find it a great way to bypass comittees and analysis paralysis!
+  we find it a great way to bypass committees and analysis paralysis!
 
 - Having an idea is easy. Ironing out all the quirks, executing on it,
   overcoming setbacks, making it scale: this is where true talent and
@@ -85,7 +85,7 @@ methodology or technical choices, be deployed at different rates: they
 all meet at a well-defined API[^api] and SLA[^sla].
 
 This setup enable us to scale while yet keeping a level of excellence,
-engagment and impact seldom found in the industry.
+engagement and impact seldom found in the industry.
 
 In the same vein, we keep our management extremely flat, team
 interactions extremely fluid and decisions are made based on facts not
@@ -102,7 +102,7 @@ We focus on results, not rules, titles or processes.
 
 Our teams roll up their sleeves to get the job done, from start to
 finish, with no artificial boundaries. They are egoless, and
-plain-spoken. They hold temselves directly accountable for the success
+plain-spoken. They hold themselves directly accountable for the success
 of the overall project.
 
 So if you design a software service, you will also build it, deploy it
@@ -120,7 +120,7 @@ models in production with a 1ms SLA!
 
 Finally our product people decipher the industry, reverse-engineer
 Staples' business and data flows, build bridges with important
-partners, secure top executive committments, keep the projects on
+partners, secure top executive commitments, keep the projects on
 schedule and on track, all while keeping an eye on our business
 metrics!
 
@@ -128,14 +128,14 @@ So, at SparX, _ownership_ is not an empty word, we do all care
 _intensely_ about accomplishing _great_ work.
 
 The amazing thing is to be part of a team with that level of
-committment, responsibility and accountability is that it is an
+commitment, responsibility and accountability is that it is an
 amazing enabler. When everybody picks up whatever trash is lying on
 the floor, it fosters your capacity to truly innovate.
 
 ### Bias for Action, Results & Fact-based Decisions
 
 Speed matters in business and to get tangible feedback you need to
-execute. This is why we have such a strong bias to action, we mimimize
+execute. This is why we have such a strong bias to action, we minimize
 meetings and emphasize fast delivery. We release to production
 multiple times a week. We quickly start our projects on a small scale,
 then grow them progressively to their full potential, learning along
@@ -151,13 +151,13 @@ not afraid of being mistaken and change the course of action along the
 way, based on facts.
 
 Finally, another benefit of basing decisions on facts & data is that
-it makes hierachy and roles completely irrevelants. The most junior
+it makes hierarchy and roles completely irrelevant. The most junior
 person in the team can win a debate with the head of the office.
 
 ### Freedom to Excel
 
 We seek excellence in all we do, and work hard in forging an
-environment that nutures it.
+environment that nurtures it.
 
 The first way you get a unique opportunity to excel, is by getting a
 chance to work on extremely challenging problems -- day in and day
@@ -176,7 +176,7 @@ out. For instance:
   millisecond.
 
 These problems cannot be brute-forced, their require creativity,
-intelligence, and impecable execution. Wherever you currently stand,
+intelligence, and impeccable execution. Wherever you currently stand,
 you _will_ feel challenged, and discover you end up achieving things
 you previously thought impossible.
 
@@ -229,7 +229,7 @@ experimenting in production, will real dollars!
 - So the fabric of our team is the capacity to, at the same time:
   - _thrive_ on freedom
   - be _worthy_ of freedom
-- We monitor all experiments with rigourous multi-variate testing and
+- We monitor all experiments with rigorous multi-variate testing and
   abort them early if necessary: before they become too harmful to the
   customer experience or bottom line.
 - We automate all the boring processes to minimize the risk for error.
@@ -245,7 +245,7 @@ cannot just settle for the original formulation.
 
 Our teams have the capacity to dive very deep, operate at all levels
 while stay connected to the details, and challenge prevailing
-assumptions when waranted.
+assumptions when warranted.
 
 Leaders , and
 audit frequently. No task is beneath them.
@@ -293,4 +293,4 @@ Here are some of the tools we love and use:
 - [GitHub](https://github.com)
 
 [^api]: Application Programming interface
-[^sla]: Service Level Agreeement
+[^sla]: Service Level Agreement

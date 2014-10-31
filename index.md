@@ -1,5 +1,5 @@
 ---
-title: SparX
+title: Staples SparX
 layout: index
 ---
 
