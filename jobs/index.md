@@ -20,7 +20,7 @@ never look back!
 
 Open Positions:
 
-- [Data Scientists](jobs/data_scientist.html)
-- [Software Engineers](jobs/software_engineer.html)
-- [DevOps](jobs/devops.html)
-- [Product Managers](jobs/product_manager.html)
+- [Data Scientists](/jobs/data_scientist.html)
+- [Software Engineers](/jobs/software_engineer.html)
+- [DevOps](/jobs/devops.html)
+- [Product Managers](/jobs/product_manager.html)
