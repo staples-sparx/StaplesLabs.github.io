@@ -237,46 +237,29 @@ experimenting in production, will real dollars!
   manner. Be it at the code level, the system level or the product
   level.
 
-### Dive Deep, Invent & Simplify
+### Dive Deep & Simplify
 
 When applying your knowledge to challenging real world problems and
 pioneering new solutions, you cannot just stay at the surface, you
 cannot just settle for the original formulation.
 
 Our teams have the capacity to dive very deep, operate at all levels
-while stay connected to the details, and challenge prevailing
-assumptions when warranted.
+while staying connected to the details. This also means that we expect
+you to challenge prevailing assumptions when warranted, to see beyond
+the symptoms and pinpoint the _root_ causes.
 
-Leaders , and
-audit frequently. No task is beneath them.
-
-  - Identify root causes and get beyond treating symptoms
-
-
-- require innovation and invention from their teams and always find
-  ways to simplify
-
-  - *Challenge prevailing assumptions* when warranted, and *suggest
-     better approaches*
-
-  - Re-conceptualize issues to *discover practical solutions to hard
-    problems*
-
-  - Create new ideas that prove useful
-
-  - *Keep us nimble by minimizing complexity and finding time to simplify*
-
-
-
-- focus on fundamental, not chase the latest fashion
-
-We strive for ingenuity and simplicity, always keeping the customer in
-mind.
+This capacity to dive deep, reformulate conundrums, and focus on
+fundamentals is a great way to discover practical solutions to
+hard-problems. But we do not stop there. When we are done, we
+relentlessly find ways to simplify. It is this quest for getting down
+to the essence, and keeping complexity under control, is what keep us
+nimble as we expand our scope.
 
 ### Passion
 
 SparX is filled with people who _love_ what they do, and care
-_intensely_ about the products they design and engineer.
+_intensely_ about the products they design and engineer. This is what
+gives us the drive we need, and fuels all our other values.
 
 ## Our Tools
 
