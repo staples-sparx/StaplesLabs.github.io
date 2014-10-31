@@ -21,7 +21,8 @@ h2 {
   font-size: 2rem;
 }
 
-#header {
+#header,
+#nav-bar {
   font-family: Times, Times New Roman, serif;
   margin: auto;
   width: 40rem;
