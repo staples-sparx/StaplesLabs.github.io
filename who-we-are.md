@@ -282,15 +282,15 @@ _intensely_ about the products they design and engineer.
 
 Here are some of the tools we love and use:
 
-- Spark
-- Clojure
-- Sci/Py
-- PostgreSQL
-- Linux
-- AWS
-- Kafka
-- Hadoop
-- GitHub
+- [Spark](https://spark.apache.org)
+- [Clojure](http://clojure.org)
+- [SciPy](http://www.scipy.org)
+- [Kafka](https://kafka.apache.org)
+- [PostgreSQL](http://www.postgresql.org)
+- [Linux](https://www.linux.com)
+- [AWS](https://aws.amazon.com)
+- [Hadoop](https://hadoop.apache.org)
+- [GitHub](https://github.com)
 
 [^api]: Application Programming interface
 [^sla]: Service Level Agreeement
