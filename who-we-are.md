@@ -13,10 +13,10 @@ This setup provides us with the nimble and flexible environment of our
 startup roots, combined with the backing and the scale of the 3rd
 largest internet retailer, Staples. We love it!
 
-- [Our Vision](#our_vision)
-- [How We Work](#how_we_work)
-- [Our Values](#our_values)
-- [Our Tools](#our_tools)
+- [Our Vision](#our-vision)
+- [How We Work](#how-we-work)
+- [Our Values](#our-values)
+- [Our Tools](#our-tools)
 
 ## Our Vision
 
