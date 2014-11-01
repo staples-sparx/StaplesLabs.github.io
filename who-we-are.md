@@ -38,7 +38,7 @@ product recommendations, and multi-variate testing to name a few.
 ### Actual Products
 
 SparX is a driver of innovation and change within Staples, but we do
-not work in the abstract, we are not a research lab. We design and
+not work in the abstract; we are not a research lab. We design and
 build [actual products](/what-we-do), deploy them in production, where
 we measure their impact on the business with rigorous testing
 methodologies.
@@ -48,7 +48,7 @@ This approach provides numerous benefits:
 - Business buy-in: you do not have to wait 5 years for the business to
   understand the potential of a novel idea. You can demonstrate its
   value early on, in production, on a portion of the Staples customer
-  base with rigorous A/B testing. Not only the solution is already
+  base with rigorous A/B testing. Not only is the solution already
   built, but you can quantify its impact on the top and bottom line:
   we find it a great way to bypass committees and analysis paralysis!
 
@@ -64,12 +64,12 @@ This approach provides numerous benefits:
 ### Small Teams
 
 We strive to maintain an environment where everybody can perform at
-his best, with maximum engagement and impact.
+his or her best, with maximum engagement and impact.
 
 In our experience, this is not something you can achieve if your teams
 grow beyond 10 people, especially if creative work is at play. We are
-not alone in this analysis, as a matter of fact there is a lot of
-empirical evidence on the topic. For instance:
+not alone in this analysis; there is a lot of empirical evidence that
+supports this conclusion. For instance:
 
 > After devoting nearly 50 years to studying team performance, the
 > late Harvard researcher J. Richard Hackman concluded that four to
@@ -78,17 +78,17 @@ empirical evidence on the topic. For instance:
 > interpersonal friction increase “exponentially as team size
 > increases.” -- http://hbswk.hbs.edu/item/7317.html
 
-For this very same reason we architect our software in "team-size"
-services, involving no more than 6 people. Theses services and unit of
-execution can then evolve at different paces, pioneer different
-methodology or technical choices, be deployed at different rates: they
-all meet at a well-defined API[^api] and SLA[^sla].
+For this very reason we architect our software services in "team-size"
+pieces, involving no more than 6 people. These services and units of
+execution can evolve at different paces, pioneer different
+methodologies, make different technical choices, or be deployed at
+different rates: they all meet at a well-defined API[^api] and SLA[^sla].
 
-This setup enable us to scale while yet keeping a level of excellence,
+This setup enables us to scale while keeping a level of excellence,
 engagement and impact seldom found in the industry.
 
 In the same vein, we keep our management extremely flat, team
-interactions extremely fluid and decisions are made based on facts not
+interactions are extremely fluid and decisions are made based on facts not
 roles.
 
 ## Our Values
@@ -115,22 +115,22 @@ _control_ over it end-to-end too.
 Similarly our data-scientists fish for data-sources, clean-up the
 data, build and debug models, monitor the models while they are
 running in production, and report on their business performance. Some
-of our data-scientists can even implement the runtime to execute these
-models in production with a 1ms SLA!
+of our data-scientists can even implement the runtime code to execute
+these models in production with a 1ms SLA!
 
 Finally our product people decipher the industry, reverse-engineer
 Staples' business and data flows, build bridges with important
-partners, secure top executive commitments, keep the projects on
+partners, secure top executive commitments, keep projects on
 schedule and on track, all while keeping an eye on our business
 metrics!
 
-So, at SparX, _ownership_ is not an empty word, we do all care
+So, at SparX, _ownership_ is not an empty word, we all do care
 _intensely_ about accomplishing _great_ work.
 
-The amazing thing is to be part of a team with that level of
+The best thing about being a part of a team with that level of
 commitment, responsibility and accountability is that it is an
-amazing enabler. When everybody picks up whatever trash is lying on
-the floor, it fosters your capacity to truly innovate.
+amazing enabler. When everybody is willing to pick up whatever
+trash is on the floor, it fosters everyone's capacity to truly innovate.
 
 ### Bias for Action, Results & Fact-based Decisions
 
@@ -142,17 +142,17 @@ then grow them progressively to their full potential, learning along
 the way.
 
 We also focus on great results, rather than on rules or on
-process. So, as long they can demonstrate great results, each team
+process. As long they can demonstrate great results, each team
 gets a lot of freedom in how it operates and in its technical choices.
 
 Being result-oriented also means that we measure what we do, look at
 the data, and surrender quickly to evidence when we are wrong. We are
-not afraid of being mistaken and change the course of action along the
-way, based on facts.
+not afraid of making mistakes and changing our course of action, based
+on the data.
 
 Finally, another benefit of basing decisions on facts & data is that
 it makes hierarchy and roles completely irrelevant. The most junior
-person in the team can win a debate with the head of the office.
+person in the team can win a debate with the head of the Lab.
 
 ### Freedom to Excel
 
@@ -220,10 +220,10 @@ excellence is _inspiration_:
 
 ### Discipline
 
-With great powers comes great responsibilities. We provide the freedom
+With great power comes great responsibility. We provide the freedom
 to experiment, innovate and excel. But, at the same time, it must come
 with a lot of operational rigor and discipline for things to be
-sustainable and avoid harmful failures. Especially when you are
+sustainable and avoid harmful outcomes. Especially when you are
 experimenting in production, will real dollars!
 
 - So the fabric of our team is the capacity to, at the same time:
