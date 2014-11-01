@@ -18,5 +18,5 @@ magic", and each business process is optimized.
 ## How We Work
 
 We design and build actual products, in
-[small teams](/who-we-are#how-we-work),
-[leveraging data science and engineering](/who-we-are#how-we-work).
+[small teams](/who-we-are#small-teams),
+[leveraging data science and engineering](/who-we-are#data-science--engineering-excellence).
