@@ -17,27 +17,6 @@ magic", and each business process is optimized.
 
 ## How We Work
 
-small blurb, focus on real product -> link to who-we-are#how-we-work
-
-## Our Products
-
-### Personal Offers
-
-explain why
-
-### Shipping Estimations
-
-precise, personalized, based on historical data.
-
-Drives conversion without impacting margins!
-
-Created a model based on historical data to predict handling time and
-shipping time for Staples’ Stock skus.
-
-### Personalized Marketing
-
-moving away from segments. Graphic?
-
-### Multi-Variate Testing Platform
-
-Accurancy + Scale. not wasting traffic. Auditing.
+We design and build actual products, in
+[small teams](/who-we-are#how-we-work),
+[leveraging data science and engineering](/who-we-are#how-we-work).
