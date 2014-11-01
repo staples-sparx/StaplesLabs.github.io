@@ -52,9 +52,9 @@ This approach provides numerous benefits:
   built, but you can quantify its impact on the top and bottom line:
   we find it a great way to bypass committees and analysis paralysis!
 
-- Having an idea is easy. Ironing out all the quirks, executing on it,
+- Having an idea is easy. Ironing out all the kinks, executing on it,
   overcoming setbacks, making it scale: this is where true talent and
-  excellence comes into play. By deploying our ideas early in
+  excellence come into play. By deploying our ideas early in
   production on actual customers, we get speedy and direct
   feedback. This allows us to discover the main challenges early on,
   progressively shape the idea to its full potential, and converge
@@ -148,7 +148,7 @@ gets a lot of freedom in how it operates and in its technical choices.
 Being result-oriented also means that we measure what we do, look at
 the data, and surrender quickly to evidence when we are wrong. We are
 not afraid of making mistakes and changing our course of action, based
-on the data.
+on the facts.
 
 Finally, another benefit of basing decisions on facts & data is that
 it makes hierarchy and roles completely irrelevant. The most junior
@@ -159,7 +159,7 @@ person in the team can win a debate with the head of the Lab.
 We seek excellence in all we do, and work hard in forging an
 environment that nurtures it.
 
-The first way you get a unique opportunity to excel, is by getting a
+The first way you get a unique opportunity to excel is by getting a
 chance to work on extremely challenging problems -- day in and day
 out. For instance:
 
@@ -168,16 +168,16 @@ out. For instance:
 - Boosting brand, sales & margin at the same time.
 - Shaping customer behavior and current traffic in order to align them
   with where Staples' wants to position itself for the next 10 years.
-- Conduct a lot of concurrent experiments at any point of time, and
-  quickly reach statistical significance, but without sacrificing
+- Conducting a lot of concurrent experiments at any point in time, and
+  quickly reaching statistical significance, but without sacrificing
   significant traffic or profits.
 - Building near real-time machine learning services with a 1ms
   SLA[^SLA] -- as in 99% of the API requests complete under one
   millisecond.
 
-These problems cannot be brute-forced, their require creativity,
+These problems cannot be brute-forced; they require creativity,
 intelligence, and impeccable execution. Wherever you currently stand,
-you _will_ feel challenged, and discover you end up achieving things
+you _will_ feel challenged, and discover that you can achieve things
 you previously thought impossible.
 
 The second way we foster excellence is by providing you with the
@@ -204,7 +204,7 @@ freedom you need to learn and experiment:
   help our colleagues, by sharing information openly and proactively,
   by getting frequent & direct feedback from our peers, by leveraging
   pair-programming when appropriate, by taking our role in coaching
-  other very seriously, and also with a bias for colocation and
+  other people very seriously, and also with a bias for colocation and
   in-person communication.
 
 Finally, the last thing that makes SparX is a great place to seek
@@ -223,8 +223,8 @@ excellence is _inspiration_:
 With great power comes great responsibility. We provide the freedom
 to experiment, innovate and excel. But, at the same time, it must come
 with a lot of operational rigor and discipline for things to be
-sustainable and avoid harmful outcomes. Especially when you are
-experimenting in production, will real dollars!
+sustainable and to avoid harmful outcomes. Especially when you are
+experimenting in production, with real dollars!
 
 - So the fabric of our team is the capacity to, at the same time:
   - _thrive_ on freedom
@@ -241,7 +241,7 @@ experimenting in production, will real dollars!
 
 When applying your knowledge to challenging real world problems and
 pioneering new solutions, you cannot just stay at the surface, you
-cannot just settle for the original formulation.
+cannot just settle for the canned package.
 
 Our teams have the capacity to dive very deep, operate at all levels
 while staying connected to the details. This also means that we expect
