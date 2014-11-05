@@ -123,7 +123,7 @@ communicate it!
 When you already have a great shipping infrastructure like Staples
 does, the great thing about communicating personalized and
 highly-accurate shipping times is that it has the potential to drive
-sales _without_ impacting margins, all while enhancing the user
+sales _without_ impacting margins, the all while enhancing the user
 experience (timing is often of essence for our customers). Hard to
 pass up!
 
