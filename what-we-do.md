@@ -26,7 +26,7 @@ to transform eCommerce.
 - [Personal Offers](#personal-offers)
 - [Personal Email](#personal-email)
 - [Smart Shipping](#smart-shipping)
-- [Experimentation Platform](#multivariate-testing-platform)
+- [Experimentation Platform](#experimentation-platform)
 
 ### Personal Offers
 
