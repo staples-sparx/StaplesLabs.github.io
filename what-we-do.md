@@ -8,6 +8,14 @@ layout: default
 We are tasked to design and engineer the products that will shape
 Staples' future.
 
+- [Our Vision](#our-vision)
+- [How We Work](#how-we-work)
+- [Our Products](#our-products)
+  - [Personal Offers](#personal-offers)
+  - [Personal Email](#personal-email)
+  - [Smart Shipping](#smart-shipping)
+  - [Multi-variate Testing Platform](#multi-variate-testing-platform)
+
 ## Our Vision
 
 Use data and technology to drive eCommerce to the point where every
@@ -21,7 +29,7 @@ We design and build [actual products](/who-we-are#actual-products), in
 [data science and engineering](/who-we-are#data-science--engineering-excellence)
 to transform eCommerce.
 
-## Our Current Products
+## Our Products
 
 ### Personal Offers
 
