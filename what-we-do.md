@@ -27,7 +27,7 @@ to transform eCommerce.
 - [Personal Offers](#personal-offers)
 - [Personal Email](#personal-email)
 - [Smart Shipping](#smart-shipping)
-- [Multi-variate Testing Platform](#multi-variate-testing-platform)
+- [Experimentation Platform](#multivariate-testing-platform)
 
 ### Personal Offers
 
@@ -129,9 +129,20 @@ sales _without_ impacting margins. Hard to pass!
 Our shipping models are based on historical data and can predict both
 handling and shipping time.
 
-### Multi-Variate Testing Platform
+### Experimentation Platform
 
 We have a strong culture of
 [fact-based decisions](/who-we-are#bias-for-action-results--fact-based-decisions). This
-means that we measure all our products on a multi-variate testing
-platform, that we designed and built to match our needs.
+means that we measure all our products on a
+[multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing_in_marketing)
+platform, that we designed and built from scratch to match our needs.
+
+In addition to pure measurement, we also leverage our experimentation
+platform for safe and progressive rollout of our new algorithms and
+product feature.
+
+At any point of time, we are conducting a lot of concurrent
+experiments, through a lot of different channels. The key challenge in
+this setup is to _quickly_ reach statistical significance, but without
+sacrificing significant _traffic_ nor _profit_. We keep learning every
+day as, in real-life, this problem is far from trivial.
