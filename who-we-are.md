@@ -266,7 +266,7 @@ gives us the drive we need, and fuels all our other values.
 Here are some of the tools we love and use:
 
 - [Spark](https://spark.apache.org)
-- [Clojure](http://clojure.org)
+- [Clojure](http://clojure.org) (Rich Hickey is an advisor ;-)
 - [SciPy](http://www.scipy.org)
 - [Kafka](https://kafka.apache.org)
 - [PostgreSQL](http://www.postgresql.org)
