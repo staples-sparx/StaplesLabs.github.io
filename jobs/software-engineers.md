@@ -22,8 +22,8 @@ people with strong fundamentals who can dive deep.
 
 We're a small team, so you will have an opportunity for a high-impact
 role, targeting over 50 million users. But our best perk is our
-colleagues: a diverse and extremely talented team of seasoned
-engineers and data-scientists.
+colleagues: a diverse and extremely talented team of stunning
+engineers, data-scientists and eCommerce experts.
 
 We are located in San Mateo, walking distance from the Cal-Train
 station. Come visit or apply online at http://staples-sparx.com.

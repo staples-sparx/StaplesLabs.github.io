@@ -20,18 +20,21 @@ devops. Bonus points if you can bridge 2 of these together. We love
 people with strong fundamentals who can dive deep.
 
 We're a small team, so you will have an opportunity for a high-impact
-role, targeting over 50 million users. You will be working on some of the bleeding edge
-problems with the freedom to chose your language, tools and algorithms. You will have
-access to all the resources and data from the second biggest etailer in the world.
-But our best perk is our
-colleagues: a diverse and extremely talented team of seasoned
-engineers and data-scientists.
+role, targeting over 50 million users. You will be working on some of
+the bleeding edge problems with the freedom to chose your language,
+tools and algorithms. You will have access to all the resources and
+data from the second biggest etailer in the world.
 
-At Sparx we believe that providing an environment with the freedom to explore and share is the quickest
-way to innovate.
-For instance, we have invested in developing a powerful experimentation platform that enables us to quickly try
-out newer algorithms to learn and innovate fast. Also a lot of our scientists and engineers actively contribute
-to open source projects and regularly present our learnings at conferences and through articles.
+But our best perk is our colleagues: a diverse and extremely talented
+team of stunning engineers, data-scientists and eCommerce experts.
+
+At Sparx we believe that providing an environment with the freedom to
+explore and share is the quickest way to innovate. For instance, we
+have invested in developing a powerful experimentation platform that
+enables us to quickly try out newer algorithms to learn and innovate
+fast. Also a lot of our scientists and engineers actively contribute
+to open source projects and regularly present our learnings at
+conferences and through articles.
 
 We are located in San Mateo, walking distance from the Cal-Train
 station. Come visit or apply online at http://staples-sparx.com.
