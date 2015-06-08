@@ -1,0 +1,76 @@
+body {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-rendering: optimizeLegibility;
+  color: black;
+  padding-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+h1 {
+  font-family: Times, Times New Roman, serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Times, Times New Roman, serif;
+  font-size: 2rem;
+}
+
+#header,
+#nav-bar {
+  font-family: Times, Times New Roman, serif;
+  margin: auto;
+  width: 40rem;
+  border: none;
+  border-collapse: separate;
+}
+
+#staples {
+  color: #ca0813;
+  font-size: 12pt;
+  margin: 0 0 0 2rem;
+  text-align: left;
+}
+
+#sparx {
+  color: black;
+  font-size: 65pt;
+  margin: -0.7rem 0 0 2rem;
+  text-align: left;
+}
+
+#homepage #staples {
+  font-size: 12pt;
+  margin: 5rem 0 0 2rem;
+}
+
+#homepage #sparx {
+  font-size: 80pt;
+  margin: -0.7rem 0 0 2rem;
+}
+
+#nav-bar td {
+  border-top: thin solid #eee;
+  border-bottom: thin solid #eee;
+  text-align: center;
+  padding: 0.25rem 0
+}
+
+#nav-bar td:nth-of-type(1) {
+  text-align: left;
+}
+
+#nav-bar td:nth-of-type(3) {
+  text-align: right;
+}
+
+#content {
+  text-align: left;
+  margin: 1rem auto;
+  max-width: 40rem;
+}

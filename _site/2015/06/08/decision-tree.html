@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name=“viewport” content="initial-scale=1.0">
+  <title>
+    
+      Creating an Efficient Decision Tree Implementation in Java &ndash;
+    
+    
+  </title>
+
+  <meta name="author" content="functor" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/css/sparx.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection" />
+
+</head>
+
+<body>
+
+<table id="header">
+  <tr>
+    <td width="60px">
+      <a href="/"><img id="logo" src="/images/SIL_robot.png" width="60px"></a>
+    </td><td>
+      <div id="staples">Staples</div>
+      <a href="/"><div id="sparx">SparX</div></a>
+    </td>
+  </tr>
+</table>
+<table id="nav-bar">
+  <tr >
+    <td>
+      <a href="/who-we-are.html"><div class="nav-link">Who We Are</div></a>
+    </td><td>
+      <a href="/what-we-do.html"><div class="nav-link">What We Do</div></a>
+    </td>
+    <td>
+      <a href="/jobs"><div class="nav-link">Join the Team</div></a>
+    </td>
+    <td>
+      <a href="/blog"><div class="nav-link">Blog</div></a>
+    </td>
+  </tr>
+</table>
+
+<div id="content">
+  <h1 id="creating-an-efficient-decision-tree-implementation-in-java">Creating an Efficient Decision Tree Implementation in Java</h1>
+
+<h2 id="background">Background</h2>
+
+<p>At Staples SparX we deal with two major challenges. We want to create highly accurate data models based on the insights gleaned from machine learning. And we want to be able to evaluate these models very efficiently at runtime. Currently we observe a 10 millisecond timeout when we call our modeling web service.</p>
+
+<p>In order to make the most accurate predictions possible, our data scientists experiment with a number of different modeling techniques. Some of them (ex: linear or logistic regression) are quite computationally cheap to score. Additionally, models such as those have a number of rich, native libraries that can be used to achieve impressive speedups. Particularly if the nature of the algorithm allows vectorization.</p>
+
+<p>However, our data scientists have found great success with decision tree based models. Both with single trees and models involving an ensemble of trees (such as [gradient boosted trees] (http://en.wikipedia.org/wiki/Gradient_boosting)).</p>
+
+<p>Some of these trees are quite large and are computationally expensive to evaluate.</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>So lets define our problem:
+- One of our data scientists trained a GBM model with 900 trees and a total of 522k nodes. 
+- Our modeling web service has an SLA of 10 milliseconds. 
+- Our web services are written in Clojure, so any solution must run on the JVM. 
+- We would like to be able to score this model at minimum 15 times per call. Preferably more.</p>
+
+<h2 id="base-implementation">Base Implementation</h2>
+
+<p>The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: <a href="https://github.com/tbrooks8/fault">Decision Tree</a>.</p>
+
+<script src="https://gist.github.com/7f68f5bec71770d27f25.js"> </script>
+
+<p>The base class is a Node. A Node has a value, a flag indicating if it is a leaf, offsets to its children, and a condition to determine which child comes next.</p>
+
+<p>A tree is just an array of nodes. However, for this problem we will not use the tree class, as we are dealing with an ensemble of trees.</p>
+
+<p>A forest is an array of nodes and an array of roots.</p>
+
+<p>Traversing the forest is quite simple. For each logical tree we start at the root and evaluate the node’s condition. The condition returns the offset for the next node. We continue traversing the tree until hitting a leaf node. That node’s value is the tree’s score.</p>
+
+<script src="https://gist.github.com/10ca7c05929a52545ef9.js"> </script>
+
+<p>I took the GBM model trained by our data scientist and loaded it into this tree representation. The model was trained using scikit-learn. Every node has a numeric condition and two children. So all of the nodes use the following condition.</p>
+
+<script src="https://gist.github.com/13402852d6664a1e83f8.js"> </script>
+
+<p>We store our features in a Object2DoubleMap from the <a href="http://fastutil.di.unimi.it/">fastutil</a> library. This is to attempt to avoid the cost of boxing and unboxing features.</p>
+
+<p>So our forest is parameterized as:</p>
+
+<script src="https://gist.github.com/3d198e27bb74b653a42e.js"> </script>
+
+<p>Using JMH to benchmark our evaluation, we produce the following number:</p>
+
+<blockquote>
+  <p>342.810 ±(99.9%) 1.743 us/op [Average]</p>
+</blockquote>
+
+<p>That number is alright. But if our target is 15 evaluations, pretty quickly we’re halfway to our SLA on average. And that is just evaluating the model.</p>
+
+<p>One caveat is that the benchmark was ran on my laptop. And the servers we use are obviously faster than that. But it’s still clear that we need some improvement.</p>
+
+<h2 id="removing-hash-lookups">Removing Hash Lookups</h2>
+
+<p>So I ran our tree in a profiler (<a href="https://www.yourkit.com/">YourKit</a>) to check for hotspots that could be optimized. Right away we immediately see an area to improve.</p>
+
+<p><img src="images/yourkit1.png" alt="YourKit: Round 1" /></p>
+
+<p>It looks like despite my good faith attempts to optimize feature lookup by using an Object2DoubleMap, feature lookup is still taking 41% of the CPU time. This is believable as we have to calculate a hashcode at every branch node we visit.</p>
+
+<p>So lets replace those maps with arrays. I will now pass a double array to the Forest. And features will be looked up by using array indices. My forest now is parameterized as <code>Forest&lt;Integer, double[]&gt;</code>.</p>
+
+<p>Using JMH again:</p>
+
+<blockquote>
+  <p>236.070 ±(99.9%) 1.133 us/op [Average]</p>
+</blockquote>
+
+<p>Boom. That’s a pretty solid speedup for what was a small change.</p>
+
+<h2 id="removing-pointer-chasing">Removing Pointer Chasing</h2>
+
+<p>But can we do better? To the profiler!</p>
+
+<p><img src="images/yourkit2.png" alt="YourKit: Round 2" /></p>
+
+<p>Wow that’s pretty unhelpful. We see a startling number: 96%. But upon further inspection, that is just pointing to the traverseSingleTree loop. It seems pretty intuitive that most of our time should be spent iterating through the 522k nodes.</p>
+
+<p>So in order to achieve further speedups we need to consider how to most efficiently iterate through those nodes. And the performance of iterating through nodes depends on how trees are represented in memory.</p>
+
+<p>The forest is represented as an array of Node objects. So our forest is an array of Objects. And because we are dealing with the JVM, that means our forest is actually an array of Object references. So it seems like addressing pointer chasing is our next big speedup.</p>
+
+<p>Maybe pointer chasing is not an issue as the JVM might be solving this through <a href="http://en.wikipedia.org/wiki/Escape_analysis">Escape Analysis</a> or other memory access optimizations that I am unaware of. But with the call for things like <a href="http://openjdk.java.net/projects/valhalla/">Project Valhalla</a> and <a href="http://objectlayout.org/">ObjectLayout</a> in future JDK updates, I am highly doubtful. It seems risky to depend on the current JVM version optimizing this access pattern for us.</p>
+
+<p>One way to avoid object references is to split our forest into multiple primitive arrays. This is a workable solution that comes at the expense of expressiveness. My previous tree could have different conditions for different nodes. The new tree can only have one condition (to avoid pointer chasing on an array of Condition  objects). This works in my case, as all of the nodes use numeric conditions based upon a cutpoint.</p>
+
+<p>So I created a specialized Forest implementation called DoubleForest:</p>
+
+<script src="https://gist.github.com/8c3a4d8492a3d31ea151.js"> </script>
+
+<p>For ease of use, this forest can be constructed from the original forest:</p>
+
+<script src="https://gist.github.com/3484567fd9b991e3cb48.js"> </script>
+
+<p>The forest pretty much is a group of primitive areas containing the data formerly held by Node objects. Additionally, the scoring the forest follows the same process. Traverse the tree until a leaf node is encountered.</p>
+
+<script src="https://gist.github.com/df4c7eeb1b8e8e301b48.js"> </script>
+
+<p>Using JMH again:</p>
+
+<blockquote>
+  <p>162.488 ±(99.9%) 0.495 us/op [Average]</p>
+</blockquote>
+
+<p>Not bad at all. That is a 2.1X speedup from where we started. Definitely a solid improvement.</p>
+
+<p>I think that is enough for this post. Decision trees are a big part of our modeling so there is definitely some more work that I have completed that can be saved for future posts.</p>
+
+<p>Things that I have also explored:
+- representing the condition object in different ways to for best performance.
+- using Unsafe to create offheap structs opposed to the primitive array strategy.
+- using pruning algorithms to avoid unnecessary work.</p>
+
+<p>In the meantime I encourage you to take a look at the <a href="https://github.com/tbrooks8/fault">Decision Tree</a> library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+http://www.staples-sparx.com//jobs/data-scientists.html
+http://www.staples-sparx.com//jobs/devops.html
+http://www.staples-sparx.com//blog/index.html
+http://www.staples-sparx.com//index.html
+http://www.staples-sparx.com//jobs/index.html
+http://www.staples-sparx.com//jobs/product-managers.html
+http://www.staples-sparx.com//sitemap.txt
+http://www.staples-sparx.com//jobs/software-engineers.html
+http://www.staples-sparx.com//what-we-do.html
+http://www.staples-sparx.com//who-we-are.html
+
+http://www.staples-sparx.com//2015/06/08/decision-tree.html
