@@ -54,23 +54,33 @@ h2 {
   margin: -0.7rem 0 0 2rem;
 }
 
-#nav-bar td {
+#nav-bar {
   border-top: thin solid #eee;
   border-bottom: thin solid #eee;
+}
+
+#nav-bar td {
   text-align: center;
   padding: 0.25rem 0
 }
 
 #nav-bar td:nth-of-type(1) {
   text-align: left;
+  padding-left: 1rem
 }
 
-#nav-bar td:nth-of-type(3) {
+#nav-bar td:nth-of-type(4) {
   text-align: right;
+  padding-right: 1rem
 }
 
 #content {
   text-align: left;
   margin: 1rem auto;
   max-width: 40rem;
+}
+
+.blog_image {
+  max-width:  100%; 
+  display: block;
 }

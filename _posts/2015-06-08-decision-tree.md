@@ -61,7 +61,7 @@ One caveat is that the benchmark was ran on my laptop. And the servers we use ar
 
 So I ran our tree in a profiler ([YourKit](https://www.yourkit.com/)) to check for hotspots that could be optimized. Right away we immediately see an area to improve. 
 
-![YourKit: Round 1](images/yourkit1.png)
+[![YourKit: Round 1](/images/yourkit1.png){: .blog_image}](/images/yourkit1.png)
 
 It looks like despite my good faith attempts to optimize feature lookup by using an Object2DoubleMap, feature lookup is still taking 41% of the CPU time. This is believable as we have to calculate a hashcode at every branch node we visit.
 
@@ -77,7 +77,7 @@ Boom. That's a pretty solid speedup for what was a small change.
 
 But can we do better? To the profiler!
 
-![YourKit: Round 2](images/yourkit2.png)
+[![YourKit: Round 2](/images/yourkit2.png){: .blog_image}](/images/yourkit2.png)
 
 Wow that's pretty unhelpful. We see a startling number: 96%. But upon further inspection, that is just pointing to the traverseSingleTree loop. It seems pretty intuitive that most of our time should be spent iterating through the 522k nodes.
 
