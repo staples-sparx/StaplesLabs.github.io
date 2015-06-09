@@ -1,29 +1,32 @@
 ---
-title: Creating an Efficient Decision Tree Implementation in Java
+title: Creating an Efficient Decision Tree in Java
 layout: post
 ---
 
-# Creating an Efficient Decision Tree Implementation in Java
+## Creating an Efficient Decision Tree in Java
 
-## Background
+Written by [Tim Brooks](https://twitter.com/trb8)
+
+### Background
 
 At Staples SparX we deal with two major challenges. We want to create highly accurate data models based on the insights gleaned from machine learning. And we want to be able to evaluate these models very efficiently at runtime. Currently we observe a 10 millisecond timeout when we call our modeling web service.
 
 In order to make the most accurate predictions possible, our data scientists experiment with a number of different modeling techniques. Some of them (ex: linear or logistic regression) are quite computationally cheap to score. Additionally, models such as those have a number of rich, native libraries that can be used to achieve impressive speedups. Particularly if the nature of the algorithm allows vectorization.
 
-However, our data scientists have found great success with decision tree based models. Both with single trees and models involving an ensemble of trees (such as [gradient boosted trees] (http://en.wikipedia.org/wiki/Gradient_boosting)). 
+However, our data scientists have found great success with decision tree based models. Both with single trees and models involving an ensemble of trees (such as [gradient boosted trees](http://en.wikipedia.org/wiki/Gradient_boosting)). 
 
 Some of these trees are quite large and are computationally expensive to evaluate.
 
-## Problem
+### Problem
 
 So lets define our problem:
-- One of our data scientists trained a GBM model with 900 trees and a total of 522k nodes. 
-- Our modeling web service has an SLA of 10 milliseconds. 
-- Our web services are written in Clojure, so any solution must run on the JVM. 
-- We would like to be able to score this model at minimum 15 times per call. Preferably more.
 
-## Base Implementation
+* One of our data scientists trained a GBM model with 900 trees and a total of 522k nodes. 
+* Our modeling web service has an SLA of 10 milliseconds. 
+* Our web services are written in Clojure, so it must run on the JVM. 
+* We would like to be able to score this model at minimum 15 times per call. Preferably more as each additional prediction provides value.
+
+### Base Implementation
 
 The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: [Sequoia](https://github.com/staples-sparx/Sequoia).
 
@@ -57,7 +60,7 @@ That number is alright. But if our target is 15 evaluations, pretty quickly we'r
 
 One caveat is that the benchmark was ran on my laptop. And the servers we use are obviously faster than that. But it's still clear that we need some improvement.
 
-## Removing Hash Lookups
+### Removing Hash Lookups
 
 So I ran our tree in a profiler ([YourKit](https://www.yourkit.com/)) to check for hotspots that could be optimized. Right away we immediately see an area to improve. 
 
@@ -73,7 +76,7 @@ Using JMH again:
 
 Boom. That's a pretty solid speedup for what was a small change.
 
-## Removing Pointer Chasing
+### Removing Pointer Chasing
 
 But can we do better? To the profiler!
 

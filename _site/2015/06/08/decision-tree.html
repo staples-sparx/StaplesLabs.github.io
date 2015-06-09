@@ -6,7 +6,7 @@
   <meta name=“viewport” content="initial-scale=1.0">
   <title>
     
-      Creating an Efficient Decision Tree Implementation in Java &ndash;
+      Creating an Efficient Decision Tree in Java &ndash;
     
     
   </title>
@@ -48,29 +48,34 @@
 </table>
 
 <div id="content">
-  <h1 id="creating-an-efficient-decision-tree-implementation-in-java">Creating an Efficient Decision Tree Implementation in Java</h1>
+  <h2 id="creating-an-efficient-decision-tree-in-java">Creating an Efficient Decision Tree in Java</h2>
 
-<h2 id="background">Background</h2>
+<p>Written by <a href="https://twitter.com/trb8">Tim Brooks</a></p>
+
+<h3 id="background">Background</h3>
 
 <p>At Staples SparX we deal with two major challenges. We want to create highly accurate data models based on the insights gleaned from machine learning. And we want to be able to evaluate these models very efficiently at runtime. Currently we observe a 10 millisecond timeout when we call our modeling web service.</p>
 
 <p>In order to make the most accurate predictions possible, our data scientists experiment with a number of different modeling techniques. Some of them (ex: linear or logistic regression) are quite computationally cheap to score. Additionally, models such as those have a number of rich, native libraries that can be used to achieve impressive speedups. Particularly if the nature of the algorithm allows vectorization.</p>
 
-<p>However, our data scientists have found great success with decision tree based models. Both with single trees and models involving an ensemble of trees (such as [gradient boosted trees] (http://en.wikipedia.org/wiki/Gradient_boosting)).</p>
+<p>However, our data scientists have found great success with decision tree based models. Both with single trees and models involving an ensemble of trees (such as <a href="http://en.wikipedia.org/wiki/Gradient_boosting">gradient boosted trees</a>).</p>
 
 <p>Some of these trees are quite large and are computationally expensive to evaluate.</p>
 
-<h2 id="problem">Problem</h2>
+<h3 id="problem">Problem</h3>
 
-<p>So lets define our problem:
-- One of our data scientists trained a GBM model with 900 trees and a total of 522k nodes. 
-- Our modeling web service has an SLA of 10 milliseconds. 
-- Our web services are written in Clojure, so any solution must run on the JVM. 
-- We would like to be able to score this model at minimum 15 times per call. Preferably more.</p>
+<p>So lets define our problem:</p>
 
-<h2 id="base-implementation">Base Implementation</h2>
+<ul>
+  <li>One of our data scientists trained a GBM model with 900 trees and a total of 522k nodes.</li>
+  <li>Our modeling web service has an SLA of 10 milliseconds.</li>
+  <li>Our web services are written in Clojure, so it must run on the JVM.</li>
+  <li>We would like to be able to score this model at minimum 15 times per call. Preferably more as each additional prediction provides value.</li>
+</ul>
 
-<p>The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: <a href="https://github.com/tbrooks8/fault">Decision Tree</a>.</p>
+<h3 id="base-implementation">Base Implementation</h3>
+
+<p>The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: <a href="https://github.com/staples-sparx/Sequoia">Sequoia</a>.</p>
 
 <script src="https://gist.github.com/7f68f5bec71770d27f25.js"> </script>
 
@@ -104,7 +109,7 @@
 
 <p>One caveat is that the benchmark was ran on my laptop. And the servers we use are obviously faster than that. But it’s still clear that we need some improvement.</p>
 
-<h2 id="removing-hash-lookups">Removing Hash Lookups</h2>
+<h3 id="removing-hash-lookups">Removing Hash Lookups</h3>
 
 <p>So I ran our tree in a profiler (<a href="https://www.yourkit.com/">YourKit</a>) to check for hotspots that could be optimized. Right away we immediately see an area to improve.</p>
 
@@ -122,7 +127,7 @@
 
 <p>Boom. That’s a pretty solid speedup for what was a small change.</p>
 
-<h2 id="removing-pointer-chasing">Removing Pointer Chasing</h2>
+<h3 id="removing-pointer-chasing">Removing Pointer Chasing</h3>
 
 <p>But can we do better? To the profiler!</p>
 
@@ -165,7 +170,7 @@
 - using Unsafe to create offheap structs opposed to the primitive array strategy.
 - using pruning algorithms to avoid unnecessary work.</p>
 
-<p>In the meantime I encourage you to take a look at the <a href="https://github.com/tbrooks8/fault">Decision Tree</a> library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.</p>
+<p>In the meantime I encourage you to take a look at the <a href="https://github.com/staples-sparx/Sequoia">Sequoia</a> library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.</p>
 
 </div>
 
