@@ -25,7 +25,7 @@ So lets define our problem:
 
 ## Base Implementation
 
-The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: [Decision Tree](https://github.com/tbrooks8/fault).
+The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: [Sequoia](https://github.com/staples-sparx/Sequoia).
 
 {% gist 7f68f5bec71770d27f25 %}
 
@@ -114,4 +114,4 @@ Things that I have also explored:
 - using Unsafe to create offheap structs opposed to the primitive array strategy.
 - using pruning algorithms to avoid unnecessary work.
 
-In the meantime I encourage you to take a look at the [Decision Tree](https://github.com/tbrooks8/fault) library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.
+In the meantime I encourage you to take a look at the [Sequoia](https://github.com/staples-sparx/Sequoia) library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.
