@@ -9,7 +9,7 @@ Written by [Tim Brooks](https://twitter.com/trb8)
 
 ### Background
 
-At Staples SparX we deal with two major challenges. We want to create highly accurate data models based on the insights gleaned from machine learning. And we want to be able to evaluate these models very efficiently at runtime. Currently we observe a 10 millisecond timeout when we call our modeling web service.
+At Staples SparX we often deal with two major challenges. We want to create highly accurate data models based on the insights gleaned from machine learning. And we want to be able to evaluate these models efficiently at runtime. Currently we observe a 10 millisecond timeout when calling our modeling web service.
 
 In order to make the most accurate predictions possible, our data scientists experiment with a number of different modeling techniques. Some of them (ex: linear or logistic regression) are quite computationally cheap to score. Additionally, models such as those have a number of rich, native libraries that can be used to achieve impressive speedups. Particularly if the nature of the algorithm allows vectorization.
 
@@ -26,11 +26,17 @@ So lets define our problem:
 * Our web services are written in Clojure, so it must run on the JVM. 
 * We would like to be able to score this model at minimum 15 times per call. Preferably more as each additional prediction provides value.
 
+### Setup
+
+All of the testing for this article was performed on a Late 2013 MacBook Pro Retina 15-inch with a 2.3 GHz Intel Core i7 processor. The JDK version was HotSpot(TM) 64-Bit Server VM - build 25.40-b25. Benchmarking was completed with [JMH](http://openjdk.java.net/projects/code-tools/jmh/) version 1.7
+
 ### Base Implementation
 
 The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: [Sequoia](https://github.com/staples-sparx/Sequoia).
 
-Sequoia is written in Java for performance reasons. It is possible to use Java arrays from Clojure, but does not feel natural to me. Additionally, the I found it easier to write the tree searching and pruning algorithms used in Sequoia in an imperative style.
+Sequoia is written in Java for performance reasons. I had done some work on [implementing](https://github.com/tbrooks8/eld) it in Clojure. However, I abandoned that work for the Java version.
+
+While possible to directly use primitive arrays in Clojure, it feels slightly unnatural to me. Additionally, I found it easier to write Sequoia's tree searching and pruning algorithms in an imperative style.
 
 {% gist 7f68f5bec71770d27f25 %}
 
@@ -44,7 +50,7 @@ Traversing the forest is quite simple. For each logical tree we start at the roo
 
 {% gist 10ca7c05929a52545ef9 %}
 
-I took the GBM model trained by our data scientist and loaded it into this tree representation. The model was trained using scikit-learn. Every node has a numeric condition and two children. So all of the nodes use the following condition.
+I took the GBM model trained by our data scientist and loaded it into this tree representation. The model was trained using [scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier). Every node has a numeric condition and two children. So all of the nodes use the following condition.
 
 {% gist 13402852d6664a1e83f8 %}
 
@@ -90,7 +96,7 @@ So in order to achieve further speedups we need to consider how to most efficien
 
 The forest is represented as an array of Node objects. So our forest is an array of Objects. And because we are dealing with the JVM, that means our forest is actually an array of Object references. So it seems like addressing pointer chasing is our next big speedup. 
 
-In the future working around this limitation may not be necessary. Proposals such as [Project Valhalla](http://openjdk.java.net/projects/valhalla/) and [ObjectLayout](http://objectlayout.org/) could alleviate pointer chasing in future JDK versions. In the meantime however, different work arounds must be found to improve memory access performance.
+In the future, working around this performance issue may not be necessary. Proposals such as [Project Valhalla](http://openjdk.java.net/projects/valhalla/) and [ObjectLayout](http://objectlayout.org/) could alleviate pointer chasing in future JDK versions. In the meantime however, different work arounds must be found to improve memory access performance.
 
 One way to avoid object references is to split our forest into multiple primitive arrays. This is a workable solution that comes at the expense of expressiveness. My previous tree could have different conditions for different nodes. The new tree can only have one condition (to avoid pointer chasing on an array of Condition  objects). This works in my case, as all of the nodes use numeric conditions based upon a cutpoint.
 
@@ -102,7 +108,7 @@ For ease of use, this forest can be constructed from the original forest:
 
 {% gist 3484567fd9b991e3cb48 %}
 
-The forest pretty much is a group of primitive areas containing the data formerly held by Node objects. Additionally, the scoring the forest follows the same process. Traverse the tree until a leaf node is encountered.
+The forest pretty much is a group of primitive areas containing the data formerly held by Node objects. Additionally, scoring the forest follows the same process. Traverse the tree until a leaf node is encountered.
 
 {% gist df4c7eeb1b8e8e301b48 %}
 
@@ -112,11 +118,16 @@ Using JMH again:
 
 Not bad at all. That is a 2.1X speedup from where we started. Definitely a solid improvement.
 
-I think that is enough for this post. Decision trees are a big part of our modeling so there is definitely some more work that I have completed that can be saved for future posts.
+I think that this is a good stopping point for this post. 162 microseconds per evaluation allows us to comfortably meet our SLA.
 
-Things that I have also explored:
+### Future
+
+Decision trees are a big part of our modeling at SparX so there is some more work that I have completed that can be saved for future posts.
+
+Other things that I have explored:
+
 - representing the condition object in different ways to for best performance.
 - using Unsafe to create offheap structs opposed to the primitive array strategy.
 - using pruning algorithms to avoid unnecessary work.
 
-In the meantime I encourage you to take a look at the [Sequoia](https://github.com/staples-sparx/Sequoia) library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.
+In the meantime I encourage you to take a look at the [Sequoia](https://github.com/staples-sparx/Sequoia) library. There is definitely work that needs to be done to make it more usable as an open source library: stabilized api, documentation, readme, etc. However, if you have a need for an efficient decision tree implementation you might find it useful. At SparX, we have been using it in production successfully for almost a year.
