@@ -30,6 +30,8 @@ So lets define our problem:
 
 The first step is to produce a tree representation that we will use for our GBM model. At SparX, we have produced a library for this purpose: [Sequoia](https://github.com/staples-sparx/Sequoia).
 
+Sequoia is written in Java for performance reasons. It is possible to use Java arrays from Clojure, but does not feel natural to me. Additionally, the I found it easier to write the tree searching and pruning algorithms used in Sequoia in an imperative style.
+
 {% gist 7f68f5bec71770d27f25 %}
 
 The base class is a Node. A Node has a value, a flag indicating if it is a leaf, offsets to its children, and a condition to determine which child comes next.
@@ -88,7 +90,7 @@ So in order to achieve further speedups we need to consider how to most efficien
 
 The forest is represented as an array of Node objects. So our forest is an array of Objects. And because we are dealing with the JVM, that means our forest is actually an array of Object references. So it seems like addressing pointer chasing is our next big speedup. 
 
-Maybe pointer chasing is not an issue as the JVM might be solving this through [Escape Analysis](http://en.wikipedia.org/wiki/Escape_analysis) or other memory access optimizations that I am unaware of. But with the call for things like [Project Valhalla](http://openjdk.java.net/projects/valhalla/) and [ObjectLayout](http://objectlayout.org/) in future JDK updates, I am highly doubtful. It seems risky to depend on the current JVM version optimizing this access pattern for us.
+In the future working around this limitation may not be necessary. Proposals such as [Project Valhalla](http://openjdk.java.net/projects/valhalla/) and [ObjectLayout](http://objectlayout.org/) could alleviate pointer chasing in future JDK versions. In the meantime however, different work arounds must be found to improve memory access performance.
 
 One way to avoid object references is to split our forest into multiple primitive arrays. This is a workable solution that comes at the expense of expressiveness. My previous tree could have different conditions for different nodes. The new tree can only have one condition (to avoid pointer chasing on an array of Condition  objects). This works in my case, as all of the nodes use numeric conditions based upon a cutpoint.
 
