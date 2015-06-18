@@ -5,7 +5,7 @@ layout: post
 
 ## Creating an Efficient Decision Tree in Java
 
-Written by [Tim Brooks](https://twitter.com/trb8)
+Written by [Tim Brooks](http://www.uncontended.net)
 
 ### Background
 
