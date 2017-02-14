@@ -9,7 +9,7 @@ SparX is a [small team](/who-we-are) executing on the firm belief that
 the future of eCommerce is driven by technical innovation and
 operational excellence.
 
-We operate in [skunk works](https://en.wikipedia.org/wiki/Skunk_Works)
+We operate in [skunk works](https://en.wikipedia.org/wiki/Skunkworks_project)
 mode within Staples, with an exceptional degree of autonomy, tasked to
 design and build the products that will shape Staples' future.
 
